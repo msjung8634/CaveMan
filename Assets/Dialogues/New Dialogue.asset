@@ -13,6 +13,42 @@ MonoBehaviour:
   m_Name: New Dialogue
   m_EditorClassIdentifier: 
   nodes:
-  - uniqueID: 
-    context: 
+  - uniqueID: a1fc06ad-d2ef-4805-b5d4-5cc6d60db995
+    context: 1
+    children:
+    - 95d537a7-68dd-478a-b90e-d3b5a946f47f
+    - 18f769a9-7f03-40a6-9933-008d2118c586
+    rect:
+      serializedVersion: 2
+      x: 23
+      y: 200
+      width: 200
+      height: 100
+  - uniqueID: 18f769a9-7f03-40a6-9933-008d2118c586
+    context: 1_1
+    children:
+    - 115726b8-1a66-43d2-b467-828b854d529c
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 128
+      width: 200
+      height: 100
+  - uniqueID: 95d537a7-68dd-478a-b90e-d3b5a946f47f
+    context: 1_2
     children: []
+    rect:
+      serializedVersion: 2
+      x: 271
+      y: 337
+      width: 200
+      height: 100
+  - uniqueID: 115726b8-1a66-43d2-b467-828b854d529c
+    context: 1_1_1
+    children: []
+    rect:
+      serializedVersion: 2
+      x: 554
+      y: 202
+      width: 200
+      height: 100
