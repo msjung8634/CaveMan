@@ -1,0 +1,6636 @@
+fileFormatVersion: 2
+guid: 5c8f67eea1cb25741b2c151f86f8ac9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7408749550818276165
+    second: Browser Games - The Enchanted Cave 2 - Cave_0
+  - first:
+      213: -2769583691503828912
+    second: Browser Games - The Enchanted Cave 2 - Cave_1
+  - first:
+      213: -1529731231697269034
+    second: Browser Games - The Enchanted Cave 2 - Cave_2
+  - first:
+      213: 4455469803529909803
+    second: Browser Games - The Enchanted Cave 2 - Cave_3
+  - first:
+      213: 4504195217355654650
+    second: Browser Games - The Enchanted Cave 2 - Cave_4
+  - first:
+      213: -8891143965951679843
+    second: Browser Games - The Enchanted Cave 2 - Cave_5
+  - first:
+      213: 8019896030597813619
+    second: Browser Games - The Enchanted Cave 2 - Cave_6
+  - first:
+      213: 8481914285539706222
+    second: Browser Games - The Enchanted Cave 2 - Cave_7
+  - first:
+      213: 2266710996902748218
+    second: Browser Games - The Enchanted Cave 2 - Cave_8
+  - first:
+      213: -3402989237341882559
+    second: Browser Games - The Enchanted Cave 2 - Cave_9
+  - first:
+      213: -3603603335189946245
+    second: Browser Games - The Enchanted Cave 2 - Cave_10
+  - first:
+      213: 7514731136878300502
+    second: Browser Games - The Enchanted Cave 2 - Cave_11
+  - first:
+      213: -4178597027823594881
+    second: Browser Games - The Enchanted Cave 2 - Cave_12
+  - first:
+      213: 2659314901242947269
+    second: Browser Games - The Enchanted Cave 2 - Cave_13
+  - first:
+      213: 4862613343817579911
+    second: Browser Games - The Enchanted Cave 2 - Cave_14
+  - first:
+      213: -8928555609155689810
+    second: Browser Games - The Enchanted Cave 2 - Cave_15
+  - first:
+      213: -1145362602519284764
+    second: Browser Games - The Enchanted Cave 2 - Cave_16
+  - first:
+      213: 9169144363883731217
+    second: Browser Games - The Enchanted Cave 2 - Cave_17
+  - first:
+      213: 769530675227422835
+    second: Browser Games - The Enchanted Cave 2 - Cave_18
+  - first:
+      213: -7289589281200727705
+    second: Browser Games - The Enchanted Cave 2 - Cave_19
+  - first:
+      213: 6239790346792547775
+    second: Browser Games - The Enchanted Cave 2 - Cave_20
+  - first:
+      213: -980671014595575386
+    second: Browser Games - The Enchanted Cave 2 - Cave_21
+  - first:
+      213: 5150791875088002279
+    second: Browser Games - The Enchanted Cave 2 - Cave_22
+  - first:
+      213: 1380964857833056957
+    second: Browser Games - The Enchanted Cave 2 - Cave_23
+  - first:
+      213: 8990081330476420050
+    second: Browser Games - The Enchanted Cave 2 - Cave_24
+  - first:
+      213: -2495551252736894872
+    second: Browser Games - The Enchanted Cave 2 - Cave_25
+  - first:
+      213: -8468006336248191143
+    second: Browser Games - The Enchanted Cave 2 - Cave_26
+  - first:
+      213: -8338073952901587734
+    second: Browser Games - The Enchanted Cave 2 - Cave_27
+  - first:
+      213: -4217230512798155511
+    second: Browser Games - The Enchanted Cave 2 - Cave_28
+  - first:
+      213: -1678588197638301443
+    second: Browser Games - The Enchanted Cave 2 - Cave_29
+  - first:
+      213: -7332971757024343578
+    second: Browser Games - The Enchanted Cave 2 - Cave_30
+  - first:
+      213: -7137149671100489432
+    second: Browser Games - The Enchanted Cave 2 - Cave_31
+  - first:
+      213: -7509817167917815041
+    second: Browser Games - The Enchanted Cave 2 - Cave_32
+  - first:
+      213: 7796658680239544182
+    second: Browser Games - The Enchanted Cave 2 - Cave_33
+  - first:
+      213: -3739796317137341774
+    second: Browser Games - The Enchanted Cave 2 - Cave_34
+  - first:
+      213: 4066920813877480640
+    second: Browser Games - The Enchanted Cave 2 - Cave_35
+  - first:
+      213: 668333640672169874
+    second: Browser Games - The Enchanted Cave 2 - Cave_36
+  - first:
+      213: -5512180381468003248
+    second: Browser Games - The Enchanted Cave 2 - Cave_37
+  - first:
+      213: 2737527448926327895
+    second: Browser Games - The Enchanted Cave 2 - Cave_38
+  - first:
+      213: 3541337898362598434
+    second: Browser Games - The Enchanted Cave 2 - Cave_39
+  - first:
+      213: 56270228753147270
+    second: Browser Games - The Enchanted Cave 2 - Cave_40
+  - first:
+      213: 2587746270432285349
+    second: Browser Games - The Enchanted Cave 2 - Cave_41
+  - first:
+      213: 2417413345216836355
+    second: Browser Games - The Enchanted Cave 2 - Cave_42
+  - first:
+      213: 7578078533449601601
+    second: Browser Games - The Enchanted Cave 2 - Cave_43
+  - first:
+      213: 5210128751325992088
+    second: Browser Games - The Enchanted Cave 2 - Cave_44
+  - first:
+      213: 8117615318788979188
+    second: Browser Games - The Enchanted Cave 2 - Cave_45
+  - first:
+      213: 6816781796027160837
+    second: Browser Games - The Enchanted Cave 2 - Cave_46
+  - first:
+      213: 4132495045378620194
+    second: Browser Games - The Enchanted Cave 2 - Cave_47
+  - first:
+      213: -6159924969661459461
+    second: Browser Games - The Enchanted Cave 2 - Cave_48
+  - first:
+      213: 3314008521643070027
+    second: Browser Games - The Enchanted Cave 2 - Cave_49
+  - first:
+      213: 9212031298777705848
+    second: Browser Games - The Enchanted Cave 2 - Cave_50
+  - first:
+      213: 5970782005858258753
+    second: Browser Games - The Enchanted Cave 2 - Cave_51
+  - first:
+      213: -6527467492040304006
+    second: Browser Games - The Enchanted Cave 2 - Cave_52
+  - first:
+      213: -6946927805895019757
+    second: Browser Games - The Enchanted Cave 2 - Cave_53
+  - first:
+      213: -2254866376012490369
+    second: Browser Games - The Enchanted Cave 2 - Cave_54
+  - first:
+      213: -2256743568719547074
+    second: Browser Games - The Enchanted Cave 2 - Cave_55
+  - first:
+      213: -6548373994782404570
+    second: Browser Games - The Enchanted Cave 2 - Cave_56
+  - first:
+      213: -5552598880838601568
+    second: Browser Games - The Enchanted Cave 2 - Cave_57
+  - first:
+      213: 125903490335108948
+    second: Browser Games - The Enchanted Cave 2 - Cave_58
+  - first:
+      213: 6598547612049488967
+    second: Browser Games - The Enchanted Cave 2 - Cave_59
+  - first:
+      213: -3650368004289118008
+    second: Browser Games - The Enchanted Cave 2 - Cave_60
+  - first:
+      213: 6798653513432035427
+    second: Browser Games - The Enchanted Cave 2 - Cave_61
+  - first:
+      213: 8520782442140316238
+    second: Browser Games - The Enchanted Cave 2 - Cave_62
+  - first:
+      213: -1642140426241319436
+    second: Browser Games - The Enchanted Cave 2 - Cave_63
+  - first:
+      213: -5439825613433643830
+    second: Browser Games - The Enchanted Cave 2 - Cave_64
+  - first:
+      213: -3295535842980184591
+    second: Browser Games - The Enchanted Cave 2 - Cave_65
+  - first:
+      213: -2549606843822164466
+    second: Browser Games - The Enchanted Cave 2 - Cave_66
+  - first:
+      213: 5375951354076215971
+    second: Browser Games - The Enchanted Cave 2 - Cave_67
+  - first:
+      213: -4437093136040810625
+    second: Browser Games - The Enchanted Cave 2 - Cave_68
+  - first:
+      213: -6246196592348028483
+    second: Browser Games - The Enchanted Cave 2 - Cave_69
+  - first:
+      213: 2999224715972896474
+    second: Browser Games - The Enchanted Cave 2 - Cave_70
+  - first:
+      213: 7027826901516816000
+    second: Browser Games - The Enchanted Cave 2 - Cave_71
+  - first:
+      213: -7493813784327773682
+    second: Browser Games - The Enchanted Cave 2 - Cave_72
+  - first:
+      213: -4096867020643738756
+    second: Browser Games - The Enchanted Cave 2 - Cave_73
+  - first:
+      213: -7002602425946651148
+    second: Browser Games - The Enchanted Cave 2 - Cave_74
+  - first:
+      213: 3684251406668896318
+    second: Browser Games - The Enchanted Cave 2 - Cave_75
+  - first:
+      213: 4265415614305565899
+    second: Browser Games - The Enchanted Cave 2 - Cave_76
+  - first:
+      213: 7702278053069415476
+    second: Browser Games - The Enchanted Cave 2 - Cave_77
+  - first:
+      213: 1150813488273106601
+    second: Browser Games - The Enchanted Cave 2 - Cave_78
+  - first:
+      213: 496181613385659433
+    second: Browser Games - The Enchanted Cave 2 - Cave_79
+  - first:
+      213: -9121587434660420070
+    second: Browser Games - The Enchanted Cave 2 - Cave_80
+  - first:
+      213: -797717278670519041
+    second: Browser Games - The Enchanted Cave 2 - Cave_81
+  - first:
+      213: -5039780344070066703
+    second: Browser Games - The Enchanted Cave 2 - Cave_82
+  - first:
+      213: -9027914713481016961
+    second: Browser Games - The Enchanted Cave 2 - Cave_83
+  - first:
+      213: 6187739337060800909
+    second: Browser Games - The Enchanted Cave 2 - Cave_84
+  - first:
+      213: 1996926470900565835
+    second: Browser Games - The Enchanted Cave 2 - Cave_85
+  - first:
+      213: 7811454857710371732
+    second: Browser Games - The Enchanted Cave 2 - Cave_86
+  - first:
+      213: -4514095161504853280
+    second: Browser Games - The Enchanted Cave 2 - Cave_87
+  - first:
+      213: 4117125717647075799
+    second: Browser Games - The Enchanted Cave 2 - Cave_88
+  - first:
+      213: 1786390384352716780
+    second: Browser Games - The Enchanted Cave 2 - Cave_89
+  - first:
+      213: -8597353203489884089
+    second: Browser Games - The Enchanted Cave 2 - Cave_90
+  - first:
+      213: -4098421741462717468
+    second: Browser Games - The Enchanted Cave 2 - Cave_91
+  - first:
+      213: -622643703397828586
+    second: Browser Games - The Enchanted Cave 2 - Cave_92
+  - first:
+      213: -2625934127647897375
+    second: Browser Games - The Enchanted Cave 2 - Cave_93
+  - first:
+      213: -5061963362709858708
+    second: Browser Games - The Enchanted Cave 2 - Cave_94
+  - first:
+      213: 2643961301972919514
+    second: Browser Games - The Enchanted Cave 2 - Cave_95
+  - first:
+      213: -4263489231118798823
+    second: Browser Games - The Enchanted Cave 2 - Cave_96
+  - first:
+      213: 6124238911553283313
+    second: Browser Games - The Enchanted Cave 2 - Cave_97
+  - first:
+      213: -7508231720087778620
+    second: Browser Games - The Enchanted Cave 2 - Cave_98
+  - first:
+      213: 5256778154037160373
+    second: Browser Games - The Enchanted Cave 2 - Cave_99
+  - first:
+      213: -235175816179507644
+    second: Browser Games - The Enchanted Cave 2 - Cave_100
+  - first:
+      213: -4967470453199165065
+    second: Browser Games - The Enchanted Cave 2 - Cave_101
+  - first:
+      213: 5383828166701825302
+    second: Browser Games - The Enchanted Cave 2 - Cave_102
+  - first:
+      213: -7500105274701637349
+    second: Browser Games - The Enchanted Cave 2 - Cave_103
+  - first:
+      213: -8953891047534819682
+    second: Browser Games - The Enchanted Cave 2 - Cave_104
+  - first:
+      213: -2881559757066601475
+    second: Browser Games - The Enchanted Cave 2 - Cave_105
+  - first:
+      213: -3832001736175867690
+    second: Browser Games - The Enchanted Cave 2 - Cave_106
+  - first:
+      213: 279887678420912459
+    second: Browser Games - The Enchanted Cave 2 - Cave_107
+  - first:
+      213: 1719598435665758898
+    second: Browser Games - The Enchanted Cave 2 - Cave_108
+  - first:
+      213: -2501753503537093762
+    second: Browser Games - The Enchanted Cave 2 - Cave_109
+  - first:
+      213: 1634614319607621016
+    second: Browser Games - The Enchanted Cave 2 - Cave_110
+  - first:
+      213: -8171519920744726644
+    second: Browser Games - The Enchanted Cave 2 - Cave_111
+  - first:
+      213: 1330745664153605630
+    second: Browser Games - The Enchanted Cave 2 - Cave_112
+  - first:
+      213: 4147709066246281571
+    second: Browser Games - The Enchanted Cave 2 - Cave_113
+  - first:
+      213: -6660401910275036589
+    second: Browser Games - The Enchanted Cave 2 - Cave_114
+  - first:
+      213: 131166368299327046
+    second: Browser Games - The Enchanted Cave 2 - Cave_115
+  - first:
+      213: -7164790561655300099
+    second: Browser Games - The Enchanted Cave 2 - Cave_116
+  - first:
+      213: 1823205209115322531
+    second: Browser Games - The Enchanted Cave 2 - Cave_117
+  - first:
+      213: 3450467838674392677
+    second: Browser Games - The Enchanted Cave 2 - Cave_118
+  - first:
+      213: -6414521512028539164
+    second: Browser Games - The Enchanted Cave 2 - Cave_119
+  - first:
+      213: -2163534013813438923
+    second: Browser Games - The Enchanted Cave 2 - Cave_120
+  - first:
+      213: -7528282668287086244
+    second: Browser Games - The Enchanted Cave 2 - Cave_121
+  - first:
+      213: 7532083649488792070
+    second: Browser Games - The Enchanted Cave 2 - Cave_122
+  - first:
+      213: 5594422526640249682
+    second: Browser Games - The Enchanted Cave 2 - Cave_123
+  - first:
+      213: -3295204870393386444
+    second: Browser Games - The Enchanted Cave 2 - Cave_124
+  - first:
+      213: -7568455992300140174
+    second: Browser Games - The Enchanted Cave 2 - Cave_125
+  - first:
+      213: -3588888329334594931
+    second: Browser Games - The Enchanted Cave 2 - Cave_126
+  - first:
+      213: -1563776228029700841
+    second: Browser Games - The Enchanted Cave 2 - Cave_127
+  - first:
+      213: -5429780158959277186
+    second: Browser Games - The Enchanted Cave 2 - Cave_128
+  - first:
+      213: -3066537164151391576
+    second: Browser Games - The Enchanted Cave 2 - Cave_129
+  - first:
+      213: 4875779554302102234
+    second: Browser Games - The Enchanted Cave 2 - Cave_130
+  - first:
+      213: -3477937629897440130
+    second: Browser Games - The Enchanted Cave 2 - Cave_131
+  - first:
+      213: 4985653353054853946
+    second: Browser Games - The Enchanted Cave 2 - Cave_132
+  - first:
+      213: 3569205201686674985
+    second: Browser Games - The Enchanted Cave 2 - Cave_133
+  - first:
+      213: -4126870217653336778
+    second: Browser Games - The Enchanted Cave 2 - Cave_134
+  - first:
+      213: 8307658796811839880
+    second: Browser Games - The Enchanted Cave 2 - Cave_135
+  - first:
+      213: -1826241421801315028
+    second: Browser Games - The Enchanted Cave 2 - Cave_136
+  - first:
+      213: -6843389020739106763
+    second: Browser Games - The Enchanted Cave 2 - Cave_137
+  - first:
+      213: 4543865988524471955
+    second: Browser Games - The Enchanted Cave 2 - Cave_138
+  - first:
+      213: -2575177099371124289
+    second: Browser Games - The Enchanted Cave 2 - Cave_139
+  - first:
+      213: -293837561632497932
+    second: Browser Games - The Enchanted Cave 2 - Cave_140
+  - first:
+      213: 1869733300561386877
+    second: Browser Games - The Enchanted Cave 2 - Cave_141
+  - first:
+      213: -6135426687169265778
+    second: Browser Games - The Enchanted Cave 2 - Cave_142
+  - first:
+      213: -3419390360646183922
+    second: Browser Games - The Enchanted Cave 2 - Cave_143
+  - first:
+      213: 4133840294081956312
+    second: Browser Games - The Enchanted Cave 2 - Cave_144
+  - first:
+      213: 8942707689646552337
+    second: Browser Games - The Enchanted Cave 2 - Cave_145
+  - first:
+      213: -8395331795362191720
+    second: Browser Games - The Enchanted Cave 2 - Cave_146
+  - first:
+      213: 4304508457779540297
+    second: Browser Games - The Enchanted Cave 2 - Cave_147
+  - first:
+      213: -2028662344594331507
+    second: Browser Games - The Enchanted Cave 2 - Cave_148
+  - first:
+      213: -1245611780660041625
+    second: Browser Games - The Enchanted Cave 2 - Cave_149
+  - first:
+      213: 3286570421459992801
+    second: Browser Games - The Enchanted Cave 2 - Cave_150
+  - first:
+      213: -5922767986091916374
+    second: Browser Games - The Enchanted Cave 2 - Cave_151
+  - first:
+      213: 8353054360363098350
+    second: Browser Games - The Enchanted Cave 2 - Cave_152
+  - first:
+      213: 8195581696899000994
+    second: Browser Games - The Enchanted Cave 2 - Cave_153
+  - first:
+      213: 1774513056777625031
+    second: Browser Games - The Enchanted Cave 2 - Cave_154
+  - first:
+      213: 1860215226723976065
+    second: Browser Games - The Enchanted Cave 2 - Cave_155
+  - first:
+      213: -7856918104503578771
+    second: Browser Games - The Enchanted Cave 2 - Cave_156
+  - first:
+      213: -1779988148352111176
+    second: Browser Games - The Enchanted Cave 2 - Cave_157
+  - first:
+      213: -431832583062240147
+    second: Browser Games - The Enchanted Cave 2 - Cave_158
+  - first:
+      213: -5013069286871591206
+    second: Browser Games - The Enchanted Cave 2 - Cave_159
+  - first:
+      213: 7256333117200432006
+    second: Browser Games - The Enchanted Cave 2 - Cave_160
+  - first:
+      213: -1832348334944884675
+    second: Browser Games - The Enchanted Cave 2 - Cave_161
+  - first:
+      213: -1504734417719189210
+    second: Browser Games - The Enchanted Cave 2 - Cave_162
+  - first:
+      213: -3913272041456795840
+    second: Browser Games - The Enchanted Cave 2 - Cave_163
+  - first:
+      213: -5013643295409884949
+    second: Browser Games - The Enchanted Cave 2 - Cave_164
+  - first:
+      213: 2872730939612726313
+    second: Browser Games - The Enchanted Cave 2 - Cave_165
+  - first:
+      213: 6950513023482424790
+    second: Browser Games - The Enchanted Cave 2 - Cave_166
+  - first:
+      213: -1804719016744153453
+    second: Browser Games - The Enchanted Cave 2 - Cave_167
+  - first:
+      213: 3210042796572831632
+    second: Browser Games - The Enchanted Cave 2 - Cave_168
+  - first:
+      213: -929867209212351950
+    second: Browser Games - The Enchanted Cave 2 - Cave_169
+  - first:
+      213: -649666563245232189
+    second: Browser Games - The Enchanted Cave 2 - Cave_170
+  - first:
+      213: 1242096287250027944
+    second: Browser Games - The Enchanted Cave 2 - Cave_171
+  - first:
+      213: -7442394012494624967
+    second: Browser Games - The Enchanted Cave 2 - Cave_172
+  - first:
+      213: -8973868091775923075
+    second: Browser Games - The Enchanted Cave 2 - Cave_173
+  - first:
+      213: -2548964249915391077
+    second: Browser Games - The Enchanted Cave 2 - Cave_174
+  - first:
+      213: -2299084267304574708
+    second: Browser Games - The Enchanted Cave 2 - Cave_175
+  - first:
+      213: -428685791353738485
+    second: Browser Games - The Enchanted Cave 2 - Cave_176
+  - first:
+      213: 6349394540088274920
+    second: Browser Games - The Enchanted Cave 2 - Cave_177
+  - first:
+      213: 7717015686937524291
+    second: Browser Games - The Enchanted Cave 2 - Cave_178
+  - first:
+      213: 5448176062192180916
+    second: Browser Games - The Enchanted Cave 2 - Cave_179
+  - first:
+      213: -6568675133351416131
+    second: Browser Games - The Enchanted Cave 2 - Cave_180
+  - first:
+      213: -4007962132961709199
+    second: Browser Games - The Enchanted Cave 2 - Cave_181
+  - first:
+      213: 8547530507444965219
+    second: Browser Games - The Enchanted Cave 2 - Cave_182
+  - first:
+      213: 8819673255169313569
+    second: Browser Games - The Enchanted Cave 2 - Cave_183
+  - first:
+      213: 2272211009842571016
+    second: Browser Games - The Enchanted Cave 2 - Cave_184
+  - first:
+      213: 6301020661826464451
+    second: Browser Games - The Enchanted Cave 2 - Cave_185
+  - first:
+      213: 3705619205053615904
+    second: Browser Games - The Enchanted Cave 2 - Cave_186
+  - first:
+      213: 2845650302646360708
+    second: Browser Games - The Enchanted Cave 2 - Cave_187
+  - first:
+      213: 7996462428293771756
+    second: Browser Games - The Enchanted Cave 2 - Cave_188
+  - first:
+      213: 3741310715724840910
+    second: Browser Games - The Enchanted Cave 2 - Cave_189
+  - first:
+      213: 9150440345868573855
+    second: Browser Games - The Enchanted Cave 2 - Cave_190
+  - first:
+      213: 5332029233519589477
+    second: Browser Games - The Enchanted Cave 2 - Cave_191
+  - first:
+      213: -1939625308286813318
+    second: Browser Games - The Enchanted Cave 2 - Cave_192
+  - first:
+      213: -1704878190135099065
+    second: Browser Games - The Enchanted Cave 2 - Cave_193
+  - first:
+      213: -5669039584384246021
+    second: Browser Games - The Enchanted Cave 2 - Cave_194
+  - first:
+      213: 3330420196817868174
+    second: Browser Games - The Enchanted Cave 2 - Cave_195
+  - first:
+      213: -7279574867135311945
+    second: Browser Games - The Enchanted Cave 2 - Cave_196
+  - first:
+      213: -7147368369704657763
+    second: Browser Games - The Enchanted Cave 2 - Cave_197
+  - first:
+      213: 5923381916791767240
+    second: Browser Games - The Enchanted Cave 2 - Cave_198
+  - first:
+      213: -650411941431981972
+    second: Browser Games - The Enchanted Cave 2 - Cave_199
+  - first:
+      213: 157384735595645344
+    second: Browser Games - The Enchanted Cave 2 - Cave_200
+  - first:
+      213: 1359796444740866650
+    second: Browser Games - The Enchanted Cave 2 - Cave_201
+  - first:
+      213: -6184740982178292337
+    second: Browser Games - The Enchanted Cave 2 - Cave_202
+  - first:
+      213: 3225914942790394213
+    second: Browser Games - The Enchanted Cave 2 - Cave_203
+  - first:
+      213: -5011474222390497872
+    second: Browser Games - The Enchanted Cave 2 - Cave_204
+  - first:
+      213: -6264697857388870114
+    second: Browser Games - The Enchanted Cave 2 - Cave_205
+  - first:
+      213: 1114338555392808913
+    second: Browser Games - The Enchanted Cave 2 - Cave_206
+  - first:
+      213: -5193053335206667911
+    second: Browser Games - The Enchanted Cave 2 - Cave_207
+  - first:
+      213: -8564868746438190037
+    second: Browser Games - The Enchanted Cave 2 - Cave_208
+  - first:
+      213: 6332903757170962948
+    second: Browser Games - The Enchanted Cave 2 - Cave_209
+  - first:
+      213: 4019557281951259298
+    second: Browser Games - The Enchanted Cave 2 - Cave_210
+  - first:
+      213: 1559486538203476527
+    second: Browser Games - The Enchanted Cave 2 - Cave_211
+  - first:
+      213: 388014875526424552
+    second: Browser Games - The Enchanted Cave 2 - Cave_212
+  - first:
+      213: 723500936763133196
+    second: Browser Games - The Enchanted Cave 2 - Cave_213
+  - first:
+      213: -566611742202432957
+    second: Browser Games - The Enchanted Cave 2 - Cave_214
+  - first:
+      213: -8002610223057331192
+    second: Browser Games - The Enchanted Cave 2 - Cave_215
+  - first:
+      213: -4543301601648536408
+    second: Browser Games - The Enchanted Cave 2 - Cave_216
+  - first:
+      213: 5873798116964464195
+    second: Browser Games - The Enchanted Cave 2 - Cave_217
+  - first:
+      213: 62384256016570431
+    second: Browser Games - The Enchanted Cave 2 - Cave_218
+  - first:
+      213: -6724332307905654209
+    second: Browser Games - The Enchanted Cave 2 - Cave_219
+  - first:
+      213: 7562507217310376646
+    second: Browser Games - The Enchanted Cave 2 - Cave_220
+  - first:
+      213: 5934940669756010435
+    second: Browser Games - The Enchanted Cave 2 - Cave_221
+  - first:
+      213: -7646213575273417186
+    second: Browser Games - The Enchanted Cave 2 - Cave_222
+  - first:
+      213: 738227083032159278
+    second: Browser Games - The Enchanted Cave 2 - Cave_223
+  - first:
+      213: 111784079608613675
+    second: Browser Games - The Enchanted Cave 2 - Cave_224
+  - first:
+      213: 2902299716635013034
+    second: Browser Games - The Enchanted Cave 2 - Cave_225
+  - first:
+      213: 7266452569723457623
+    second: Browser Games - The Enchanted Cave 2 - Cave_226
+  - first:
+      213: 4371102127817595917
+    second: Browser Games - The Enchanted Cave 2 - Cave_227
+  - first:
+      213: -6215866286084130828
+    second: Browser Games - The Enchanted Cave 2 - Cave_228
+  - first:
+      213: 21427679891408103
+    second: Browser Games - The Enchanted Cave 2 - Cave_229
+  - first:
+      213: 5310602686296010163
+    second: Browser Games - The Enchanted Cave 2 - Cave_230
+  - first:
+      213: -1813163107332377950
+    second: Browser Games - The Enchanted Cave 2 - Cave_231
+  - first:
+      213: 217934716439325716
+    second: Browser Games - The Enchanted Cave 2 - Cave_232
+  - first:
+      213: -5757696266085458723
+    second: Browser Games - The Enchanted Cave 2 - Cave_233
+  - first:
+      213: 8867728356295709179
+    second: Browser Games - The Enchanted Cave 2 - Cave_234
+  - first:
+      213: -3023108564409301089
+    second: Browser Games - The Enchanted Cave 2 - Cave_235
+  - first:
+      213: 6318138148662739716
+    second: Browser Games - The Enchanted Cave 2 - Cave_236
+  - first:
+      213: 4688989548370169789
+    second: Browser Games - The Enchanted Cave 2 - Cave_237
+  - first:
+      213: 1400412677258370881
+    second: Browser Games - The Enchanted Cave 2 - Cave_238
+  - first:
+      213: -6039799658215332546
+    second: Browser Games - The Enchanted Cave 2 - Cave_239
+  - first:
+      213: 4404589927295321415
+    second: Browser Games - The Enchanted Cave 2 - Cave_240
+  - first:
+      213: -5600379920223688648
+    second: Browser Games - The Enchanted Cave 2 - Cave_241
+  - first:
+      213: 3643278447610141359
+    second: Browser Games - The Enchanted Cave 2 - Cave_242
+  - first:
+      213: -6269476997541541550
+    second: Browser Games - The Enchanted Cave 2 - Cave_243
+  - first:
+      213: -5019730541253665878
+    second: Browser Games - The Enchanted Cave 2 - Cave_244
+  - first:
+      213: 6204354913000760716
+    second: Browser Games - The Enchanted Cave 2 - Cave_245
+  - first:
+      213: -4681843613977179641
+    second: Browser Games - The Enchanted Cave 2 - Cave_246
+  - first:
+      213: 7691418196933215531
+    second: Browser Games - The Enchanted Cave 2 - Cave_247
+  - first:
+      213: -2016295440213555206
+    second: Browser Games - The Enchanted Cave 2 - Cave_248
+  - first:
+      213: 6656961403531659547
+    second: Browser Games - The Enchanted Cave 2 - Cave_249
+  - first:
+      213: -5402168484730222937
+    second: Browser Games - The Enchanted Cave 2 - Cave_250
+  - first:
+      213: 6093539429361178526
+    second: Browser Games - The Enchanted Cave 2 - Cave_251
+  - first:
+      213: 8353985066275896503
+    second: Browser Games - The Enchanted Cave 2 - Cave_252
+  - first:
+      213: -3712538962617160555
+    second: Browser Games - The Enchanted Cave 2 - Cave_253
+  - first:
+      213: 8751117428480793398
+    second: Browser Games - The Enchanted Cave 2 - Cave_254
+  - first:
+      213: 3725789164461499640
+    second: Browser Games - The Enchanted Cave 2 - Cave_255
+  - first:
+      213: -6173459451990768820
+    second: Browser Games - The Enchanted Cave 2 - Cave_256
+  - first:
+      213: -3916329131375599829
+    second: Browser Games - The Enchanted Cave 2 - Cave_257
+  - first:
+      213: 2945048505891619634
+    second: Browser Games - The Enchanted Cave 2 - Cave_258
+  - first:
+      213: 5344944570575057976
+    second: Browser Games - The Enchanted Cave 2 - Cave_259
+  - first:
+      213: 5120223975700798822
+    second: Browser Games - The Enchanted Cave 2 - Cave_260
+  - first:
+      213: -3559032512965066242
+    second: Browser Games - The Enchanted Cave 2 - Cave_261
+  - first:
+      213: 1837984366223630072
+    second: Browser Games - The Enchanted Cave 2 - Cave_262
+  - first:
+      213: -7037820101105063534
+    second: Browser Games - The Enchanted Cave 2 - Cave_263
+  - first:
+      213: -6233875462305939964
+    second: Browser Games - The Enchanted Cave 2 - Cave_264
+  - first:
+      213: 6700758749658400465
+    second: Browser Games - The Enchanted Cave 2 - Cave_265
+  - first:
+      213: 720497255691606482
+    second: Browser Games - The Enchanted Cave 2 - Cave_266
+  - first:
+      213: 6410678894186567889
+    second: Browser Games - The Enchanted Cave 2 - Cave_267
+  - first:
+      213: 1593019905917808961
+    second: Browser Games - The Enchanted Cave 2 - Cave_268
+  - first:
+      213: -804687149276159927
+    second: Browser Games - The Enchanted Cave 2 - Cave_269
+  - first:
+      213: -6232803599718002790
+    second: Browser Games - The Enchanted Cave 2 - Cave_270
+  - first:
+      213: -4730694890482646090
+    second: Browser Games - The Enchanted Cave 2 - Cave_271
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543bb56967a21d660800000000000000
+      internalID: 7408749550818276165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05003347e467099d0800000000000000
+      internalID: -2769583691503828912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de0dd4bc8d45cae0800000000000000
+      internalID: -1529731231697269034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2631e22e2205dd30800000000000000
+      internalID: 4455469803529909803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af54f799fad128e30800000000000000
+      internalID: 4504195217355654650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92a7969baf4c9480800000000000000
+      internalID: -8891143965951679843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3751957d2f46c4f60800000000000000
+      internalID: 8019896030597813619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65c7e48a10d5b570800000000000000
+      internalID: 8481914285539706222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a302cd264a9f47f10800000000000000
+      internalID: 2266710996902748218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14772c5815726c0d0800000000000000
+      internalID: -3402989237341882559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70279efbdd6dfdc0800000000000000
+      internalID: -3603603335189946245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dc23c7720b94860800000000000000
+      internalID: 7514731136878300502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7252117424a206c0800000000000000
+      internalID: -4178597027823594881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c62d7220d8c7e420800000000000000
+      internalID: 2659314901242947269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d325ea2197b7340800000000000000
+      internalID: 4862613343817579911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea224fe9af5671480800000000000000
+      internalID: -8928555609155689810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e332d908cada10f0800000000000000
+      internalID: -1145362602519284764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119909ff7385f3f70800000000000000
+      internalID: 9169144363883731217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37072bc621cedaa00800000000000000
+      internalID: 769530675227422835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769198fab2d26da90800000000000000
+      internalID: -7289589281200727705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb53b75b240389650800000000000000
+      internalID: 6239790346792547775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1428578e4f362f0800000000000000
+      internalID: -980671014595575386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eca69a9be94b7740800000000000000
+      internalID: 5150791875088002279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbaef66b83c2a2310800000000000000
+      internalID: 1380964857833056957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db0beca65f23cc70800000000000000
+      internalID: 8990081330476420050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86816dd8b550e5dd0800000000000000
+      internalID: -2495551252736894872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9576b244a199b7a80800000000000000
+      internalID: -8468006336248191143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec1d56bae5394c80800000000000000
+      internalID: -8338073952901587734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d3ab441336975c0800000000000000
+      internalID: -4217230512798155511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df81b938de474b8e0800000000000000
+      internalID: -1678588197638301443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9879ae90d0c3a90800000000000000
+      internalID: -7332971757024343578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82162493030c3fc90800000000000000
+      internalID: -7137149671100489432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffae0221315c7c790800000000000000
+      internalID: -7509817167917815041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677d4aed2cb433c60800000000000000
+      internalID: 7796658680239544182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2f6b85013991cc0800000000000000
+      internalID: -3739796317137341774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc4fc8ceea907830800000000000000
+      internalID: 4066920813877480640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f45bbb7e5664900800000000000000
+      internalID: 668333640672169874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054f8b8d52dc083b0800000000000000
+      internalID: -5512180381468003248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7549224f5b6adf520800000000000000
+      internalID: 2737527448926327895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224f7854e0c552130800000000000000
+      internalID: 3541337898362598434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685e2449979e7c000800000000000000
+      internalID: 56270228753147270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a255f1c58589e320800000000000000
+      internalID: 2587746270432285349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30330f421a06c8120800000000000000
+      internalID: 2417413345216836355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142d64a964eba2960800000000000000
+      internalID: 7578078533449601601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894d5d0be781e4840800000000000000
+      internalID: 5210128751325992088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_45
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9bfab9f1097a070800000000000000
+      internalID: 8117615318788979188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_46
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5095c873de21a9e50800000000000000
+      internalID: 6816781796027160837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bbadf4952995930800000000000000
+      internalID: 4132495045378620194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3154470ec838aa0800000000000000
+      internalID: -6159924969661459461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42172b2139bdfd20800000000000000
+      internalID: 3314008521643070027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dec67a8a5b7df70800000000000000
+      internalID: 9212031298777705848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fc97a899a7cd250800000000000000
+      internalID: 5970782005858258753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a170666e6c965a0800000000000000
+      internalID: -6527467492040304006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313f75987fd879f90800000000000000
+      internalID: -6946927805895019757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f799dc15afa15b0e0800000000000000
+      internalID: -2254866376012490369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35f2555eaf6ea0e0800000000000000
+      internalID: -2256743568719547074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620d698eb808f15a0800000000000000
+      internalID: -6548373994782404570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4326f9cb431f2b0800000000000000
+      internalID: -5552598880838601568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fe761be8c4fb100800000000000000
+      internalID: 125903490335108948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c36b1b710c29b50800000000000000
+      internalID: 6598547612049488967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c045ecf3a9475dc0800000000000000
+      internalID: -3650368004289118008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_61
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360f313895ba95e50800000000000000
+      internalID: 6798653513432035427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_62
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42b8207c76ef3670800000000000000
+      internalID: 8520782442140316238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_63
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdd3969bf1f539e0800000000000000
+      internalID: -1642140426241319436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc573f0d6bd184b0800000000000000
+      internalID: -5439825613433643830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_65
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd399e7c97e342d0800000000000000
+      internalID: -3295535842980184591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06331d751afd9cd0800000000000000
+      internalID: -2549606843822164466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_67
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa3e7506473b9a40800000000000000
+      internalID: 5375951354076215971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77a6fe2d474c62c0800000000000000
+      internalID: -4437093136040810625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db127d30b4d0159a0800000000000000
+      internalID: -6246196592348028483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6e2251df26f9920800000000000000
+      internalID: 2999224715972896474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e08d7f45bd78160800000000000000
+      internalID: 7027826901516816000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02a73c2110a00890800000000000000
+      internalID: -7493813784327773682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b548e96210527c0800000000000000
+      internalID: -4096867020643738756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5492ae132c1de90800000000000000
+      internalID: -7002602425946651148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_75
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e389bb56227112330800000000000000
+      internalID: 3684251406668896318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc761ee6ecc13b30800000000000000
+      internalID: 4265415614305565899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_77
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4346d72b41df3ea60800000000000000
+      internalID: 7702278053069415476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a62f3335c288ff00800000000000000
+      internalID: 1150813488273106601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_79
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924bee96c8ac2e600800000000000000
+      internalID: 496181613385659433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1626617e8c996180800000000000000
+      internalID: -9121587434660420070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff407ad8c50fde4f0800000000000000
+      internalID: -797717278670519041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd25bd9a7a1f0ab0800000000000000
+      internalID: -5039780344070066703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f790178666766b280800000000000000
+      internalID: -9027914713481016961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89583c94244fd550800000000000000
+      internalID: 6187739337060800909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b474a9c8b0286bb10800000000000000
+      internalID: 1996926470900565835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49383d46eccd76c60800000000000000
+      internalID: 7811454857710371732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e291380e56ba51c0800000000000000
+      internalID: -4514095161504853280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9aaf7d608f22930800000000000000
+      internalID: 4117125717647075799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7648107988ac810800000000000000
+      internalID: 1786390384352716780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7483b69efc010b880800000000000000
+      internalID: -8597353203489884089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_91
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb7068f32b7f17c0800000000000000
+      internalID: -4098421741462717468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618b655c9dceb57f0800000000000000
+      internalID: -622643703397828586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_93
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8c8fdd2dece8bd0800000000000000
+      internalID: -2625934127647897375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_94
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6613ab142b40c9b0800000000000000
+      internalID: -5061963362709858708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_95
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4a9fbbbcc31b420800000000000000
+      internalID: 2643961301972919514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910f57b122b05d4c0800000000000000
+      internalID: -4263489231118798823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_97
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f422caa7daadf450800000000000000
+      internalID: 6124238911553283313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_98
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca09d8e7076dc790800000000000000
+      internalID: -7508231720087778620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_99
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b92b6621e3d3f840800000000000000
+      internalID: 5256778154037160373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_100
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e9bd857dc7cbcf0800000000000000
+      internalID: -235175816179507644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_101
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779a0dc01ffff0bb0800000000000000
+      internalID: -4967470453199165065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_102
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d3100613337ba40800000000000000
+      internalID: 5383828166701825302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_103
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19106b6df54ae790800000000000000
+      internalID: -7500105274701637349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_104
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96032238836db380800000000000000
+      internalID: -8953891047534819682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_105
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbfbf80ba4a208d0800000000000000
+      internalID: -2881559757066601475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_106
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8ae8849bef1dac0800000000000000
+      internalID: -3832001736175867690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_107
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4989415c5c52e300800000000000000
+      internalID: 279887678420912459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bacc2a9aad3dd710800000000000000
+      internalID: 1719598435665758898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_109
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e732512817cf74dd0800000000000000
+      internalID: -2501753503537093762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_110
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895aaf820115fa610800000000000000
+      internalID: 1634614319607621016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_111
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f7bf83dede89e80800000000000000
+      internalID: -8171519920744726644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_112
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef554468122c77210800000000000000
+      internalID: 1330745664153605630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_113
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369d6459b6f9f8930800000000000000
+      internalID: 4147709066246281571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_114
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a29bc30cf7193a0800000000000000
+      internalID: -6660401910275036589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_115
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e95f4fd1ff1d100800000000000000
+      internalID: 131166368299327046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_116
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffd672e1fc819c90800000000000000
+      internalID: -7164790561655300099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_117
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8e5f95a735d4910800000000000000
+      internalID: 1823205209115322531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_118
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566d819c73682ef20800000000000000
+      internalID: 3450467838674392677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_119
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6ff6f9baa0bf6a0800000000000000
+      internalID: -6414521512028539164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536cc2ff64599f1e0800000000000000
+      internalID: -2163534013813438923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_121
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51b40cbcca268790800000000000000
+      internalID: -7528282668287086244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_122
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60aae4a2c26578860800000000000000
+      internalID: 7532083649488792070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_123
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bd5dfb5a163ad40800000000000000
+      internalID: 5594422526640249682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aa01e01a41542d0800000000000000
+      internalID: -3295204870393386444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_125
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27906c8df5177f690800000000000000
+      internalID: -7568455992300140174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_126
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8267774415b13ec0800000000000000
+      internalID: -3588888329334594931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_127
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715e61c4ec95c4ae0800000000000000
+      internalID: -1563776228029700841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ba4c0b6bb85a4b0800000000000000
+      internalID: -5429780158959277186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_129
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaf83842b87175d0800000000000000
+      internalID: -3066537164151391576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_130
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada0a41fbaf3aa340800000000000000
+      internalID: 4875779554302102234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_131
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74cffa0722ebbfc0800000000000000
+      internalID: -3477937629897440130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_132
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bd11a3f49903540800000000000000
+      internalID: 4985653353054853946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_133
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92eb201783d588130800000000000000
+      internalID: 3569205201686674985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_134
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63542a2f6696ab6c0800000000000000
+      internalID: -4126870217653336778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_135
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8896e1be8abba4370800000000000000
+      internalID: 8307658796811839880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25ad6b4a13e7a6e0800000000000000
+      internalID: -1826241421801315028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_137
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538890781f56701a0800000000000000
+      internalID: -6843389020739106763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_138
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396faf8ca0e0f0f30800000000000000
+      internalID: 4543865988524471955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_139
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9634e6212234cd0800000000000000
+      internalID: -2575177099371124289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_140
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe5a356b441cebf0800000000000000
+      internalID: -293837561632497932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_141
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d1ea4d780a2f910800000000000000
+      internalID: 1869733300561386877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_142
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ff2d55fe59adaa0800000000000000
+      internalID: -6135426687169265778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_143
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e041a4d6592eb80d0800000000000000
+      internalID: -3419390360646183922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_144
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d983fe68d95e5930800000000000000
+      internalID: 4133840294081956312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_145
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11579836341ea1c70800000000000000
+      internalID: 8942707689646552337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_146
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896e4e5663acd7b80800000000000000
+      internalID: -8395331795362191720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_147
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9413d96d2afacbb30800000000000000
+      internalID: 4304508457779540297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_148
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d886e3d885eb8d3e0800000000000000
+      internalID: -2028662344594331507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_149
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76867bd5fa2b6bee0800000000000000
+      internalID: -1245611780660041625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_150
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0cd64a26e3c9d20800000000000000
+      internalID: 3286570421459992801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_151
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa38fe595e91ecda0800000000000000
+      internalID: -5922767986091916374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee068f23fa20ce370800000000000000
+      internalID: 8353054360363098350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_153
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aaab5b912e8cb170800000000000000
+      internalID: 8195581696899000994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_154
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdd58e293650a810800000000000000
+      internalID: 1774513056777625031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_155
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183c7a294efc0d910800000000000000
+      internalID: 1860215226723976065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_156
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f8ab79c9e96f290800000000000000
+      internalID: -7856918104503578771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_157
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd2119b5363c47e0800000000000000
+      internalID: -1779988148352111176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_158
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64c22cbd82d10af0800000000000000
+      internalID: -431832583062240147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_159
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad619914b000e6ab0800000000000000
+      internalID: -5013069286871591206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_160
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b72ae368ca3b460800000000000000
+      internalID: 7256333117200432006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_161
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38e4d6c5e03296e0800000000000000
+      internalID: -1832348334944884675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_162
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6212b8ef40c1e1be0800000000000000
+      internalID: -1504734417719189210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_163
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fff7bcfc341b9c0800000000000000
+      internalID: -3913272041456795840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_164
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0339a7cf5fb6ab0800000000000000
+      internalID: -5013643295409884949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_165
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92404e6b19dfdd720800000000000000
+      internalID: 2872730939612726313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_166
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd656bf4ce257060800000000000000
+      internalID: 6950513023482424790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_167
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e8297bd9954f6e0800000000000000
+      internalID: -1804719016744153453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f668b7aec5c8c20800000000000000
+      internalID: 3210042796572831632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_169
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a2d9a23b27813f0800000000000000
+      internalID: -929867209212351950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_170
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfa15be3bbebf6f0800000000000000
+      internalID: -649666563245232189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_171
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a59e5a0effcc3110800000000000000
+      internalID: 1242096287250027944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_172
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93783ceb31e47b890800000000000000
+      internalID: -7442394012494624967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_173
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ccb70248a667380800000000000000
+      internalID: -8973868091775923075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_174
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b938f9a058240acd0800000000000000
+      internalID: -2548964249915391077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_175
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c012f9a3a030810e0800000000000000
+      internalID: -2299084267304574708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_176
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b6a164b800d0af0800000000000000
+      internalID: -428685791353738485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_177
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef24c491b49d1850800000000000000
+      internalID: 6349394540088274920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_178
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348370a71e8581b60800000000000000
+      internalID: 7717015686937524291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_179
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be50cc434fcb9b40800000000000000
+      internalID: 5448176062192180916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_180
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbea5afb4c067d4a0800000000000000
+      internalID: -6568675133351416131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_181
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173b997dcabd068c0800000000000000
+      internalID: -4007962132961709199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_182
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f4213b5bdee9670800000000000000
+      internalID: 8547530507444965219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_183
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b4161d816c56a70800000000000000
+      internalID: 8819673255169313569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_184
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807e560ffd3888f10800000000000000
+      internalID: 2272211009842571016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_185
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca209e58e8b17750800000000000000
+      internalID: 6301020661826464451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_186
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f0616a8010d6330800000000000000
+      internalID: 3705619205053615904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_187
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a18349fd7cd7720800000000000000
+      internalID: 2845650302646360708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_188
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce13532263429fe60800000000000000
+      internalID: 7996462428293771756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_189
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf342d064ecbe330800000000000000
+      internalID: 3741310715724840910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_190
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c16e17305ecfe70800000000000000
+      internalID: 9150440345868573855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_191
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568feeb665c2ff940800000000000000
+      internalID: 5332029233519589477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_192
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bf4360f011515e0800000000000000
+      internalID: -1939625308286813318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_193
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741cfa3a15e0758e0800000000000000
+      internalID: -1704878190135099065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_194
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe162ba8868351b0800000000000000
+      internalID: -5669039584384246021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_195
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e859d101687083e20800000000000000
+      internalID: 3330420196817868174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_196
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfc9882a31c9fa90800000000000000
+      internalID: -7279574867135311945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_197
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c14ec06527fcc90800000000000000
+      internalID: -7147368369704657763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_198
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0885b4874143250800000000000000
+      internalID: 5923381916791767240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_199
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68464909c549f6f0800000000000000
+      internalID: -650411941431981972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a94f3a45942f2200800000000000000
+      internalID: 157384735595645344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_201
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a525e9779a7fed210800000000000000
+      internalID: 1359796444740866650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_202
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d567948d26b2aa0800000000000000
+      internalID: -6184740982178292337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_203
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56165a08c80c4cc20800000000000000
+      internalID: 3225914942790394213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_204
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd23652fbaa37ab0800000000000000
+      internalID: -5011474222390497872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_205
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e168f219d725f09a0800000000000000
+      internalID: -6264697857388870114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_206
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7d5b9130de67f00800000000000000
+      internalID: 1114338555392808913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_207
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979595f61819ee7b0800000000000000
+      internalID: -5193053335206667911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_208
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cd4b4f049732980800000000000000
+      internalID: -8564868746438190037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_209
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40279eaf96ef2e750800000000000000
+      internalID: 6332903757170962948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_210
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa1a092d0658c730800000000000000
+      internalID: 4019557281951259298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_211
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f223f957eb864a510800000000000000
+      internalID: 1559486538203476527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_212
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7e1573971826500800000000000000
+      internalID: 388014875526424552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_213
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dcd6ac4446a0a00800000000000000
+      internalID: 723500936763133196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_214
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342757c5f9df228f0800000000000000
+      internalID: -566611742202432957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_215
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c12cad66401f090800000000000000
+      internalID: -8002610223057331192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_216
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a49646c343f2f0c0800000000000000
+      internalID: -4543301601648536408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_217
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3467604444ce38150800000000000000
+      internalID: 5873798116964464195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_218
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38d17b7622add000800000000000000
+      internalID: 62384256016570431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_219
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32d99b946f5ea2a0800000000000000
+      internalID: -6724332307905654209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_220
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2ec1b0f3c63f860800000000000000
+      internalID: 7562507217310376646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_221
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf63df28152d5250800000000000000
+      internalID: 5934940669756010435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_222
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16fe01c34133e590800000000000000
+      internalID: -7646213575273417186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_223
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2464b7ee95be3a00800000000000000
+      internalID: 738227083032159278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_224
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b8d9437032d8100800000000000000
+      internalID: 111784079608613675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_225
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf2fb9173a074820800000000000000
+      internalID: 2902299716635013034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_226
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7505793ec10a7d460800000000000000
+      internalID: 7266452569723457623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_227
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c9585e93649ac30800000000000000
+      internalID: 4371102127817595917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_228
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7f0aebb8eccb9a0800000000000000
+      internalID: -6215866286084130828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_229
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4c9408c502c4000800000000000000
+      internalID: 21427679891408103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_230
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bda8e3a10d03b940800000000000000
+      internalID: 5310602686296010163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_231
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a23c9ba2c956d6e0800000000000000
+      internalID: -1813163107332377950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_232
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c679d4872460300800000000000000
+      internalID: 217934716439325716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_233
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc126760cd8810b0800000000000000
+      internalID: -5757696266085458723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_234
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf11aa1f4ff701b70800000000000000
+      internalID: 8867728356295709179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_235
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9741fc17c2cb06d0800000000000000
+      internalID: -3023108564409301089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_236
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40303e8db298ea750800000000000000
+      internalID: 6318138148662739716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_237
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf8f12a623a21140800000000000000
+      internalID: 4688989548370169789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_238
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f50f609e34f6310800000000000000
+      internalID: 1400412677258370881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_239
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35ac8906325e2ca0800000000000000
+      internalID: -6039799658215332546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_240
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74583bdc33f302d30800000000000000
+      internalID: 4404589927295321415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_241
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83826d772247742b0800000000000000
+      internalID: -5600379920223688648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_242
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa93a7f1768f8230800000000000000
+      internalID: 3643278447610141359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_243
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259cd0a43e75ef8a0800000000000000
+      internalID: -6269476997541541550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_244
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab556c1ba5565ab0800000000000000
+      internalID: -5019730541253665878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_245
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c852cd9dbeb4a1650800000000000000
+      internalID: 6204354913000760716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_246
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a85fed900c60fb0800000000000000
+      internalID: -4681843613977179641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_247
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b250e2769186dba60800000000000000
+      internalID: 7691418196933215531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_248
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7c4dbdafda404e0800000000000000
+      internalID: -2016295440213555206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_249
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b198dfc5027426c50800000000000000
+      internalID: 6656961403531659547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_250
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a648d29264a705b0800000000000000
+      internalID: -5402168484730222937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_251
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97d8e773d9909450800000000000000
+      internalID: 6093539429361178526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_252
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcfa4e08215fe370800000000000000
+      internalID: 8353985066275896503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_253
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c286ebb796a7cc0800000000000000
+      internalID: -3712538962617160555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_254
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bd3509fe6327970800000000000000
+      internalID: 8751117428480793398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_255
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f42ab74189a4b330800000000000000
+      internalID: 3725789164461499640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_256
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4300d83657735aa0800000000000000
+      internalID: -6173459451990768820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_257
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fd7d4976766a9c0800000000000000
+      internalID: -3916329131375599829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_258
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23307f7330aeed820800000000000000
+      internalID: 2945048505891619634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_259
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8347749a4ce0d2a40800000000000000
+      internalID: 5344944570575057976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_260
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d951ae390be0740800000000000000
+      internalID: 5120223975700798822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_261
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1c6a839c6cb9ec0800000000000000
+      internalID: -3559032512965066242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_262
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe1b730b05d18910800000000000000
+      internalID: 1837984366223630072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_263
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2996780f7e3a45e90800000000000000
+      internalID: -7037820101105063534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_264
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40efa37ab43dc79a0800000000000000
+      internalID: -6233875462305939964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_265
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6caf6a490edfc50800000000000000
+      internalID: 6700758749658400465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_266
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9542bcf68bff900800000000000000
+      internalID: 720497255691606482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_267
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d895113d7e47f850800000000000000
+      internalID: 6410678894186567889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_268
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1417b5c0a2b8b1610800000000000000
+      internalID: 1593019905917808961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_269
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940a2181d4d25d4f0800000000000000
+      internalID: -804687149276159927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_270
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f480c1622a089a0800000000000000
+      internalID: -6232803599718002790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Browser Games - The Enchanted Cave 2 - Cave_271
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3c608bf02395eb0800000000000000
+      internalID: -4730694890482646090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
