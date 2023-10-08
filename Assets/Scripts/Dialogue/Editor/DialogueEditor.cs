@@ -11,7 +11,9 @@ namespace Dialogue
     {
         Dialogue selectedDialogue = null;
 		[NonSerialized]
-		GUIStyle nodeStyle;
+		GUIStyle nonPlayerNodeStyle;
+		[NonSerialized]
+		GUIStyle playerNodeStyle;
 		[NonSerialized]
 		DialogueNode draggingNode = null;
 		[NonSerialized]
@@ -32,6 +34,10 @@ namespace Dialogue
 		bool isDraggingCanvas = false;
 		[NonSerialized]
 		Vector2 draggingCanvasOffset;
+
+		const float canvasSize = 4000;
+		// backgrond image size (50x50)
+		const float backgroundTextureSize = 50;
 
 		// Window/Dialogue Editor 추가
 		[MenuItem("Window/Dialogue Editor")]
@@ -61,11 +67,17 @@ namespace Dialogue
 			Selection.selectionChanged += OnSelectionChange;
 
 			// Unity기본 제공 background로 GUIStyle 설정
-			nodeStyle = new GUIStyle();
-			nodeStyle.normal.background = EditorGUIUtility.Load("node0") as Texture2D;
-			nodeStyle.normal.textColor = Color.white;
-			nodeStyle.padding = new RectOffset(20, 20, 20, 20);
-			nodeStyle.border = new RectOffset(12, 12, 12, 12);
+			nonPlayerNodeStyle = new GUIStyle();
+			nonPlayerNodeStyle.normal.background = EditorGUIUtility.Load("node0") as Texture2D;
+			nonPlayerNodeStyle.normal.textColor = Color.white;
+			nonPlayerNodeStyle.padding = new RectOffset(20, 20, 20, 20);
+			nonPlayerNodeStyle.border = new RectOffset(12, 12, 12, 12);
+
+			playerNodeStyle = new GUIStyle();
+			playerNodeStyle.normal.background = EditorGUIUtility.Load("node1") as Texture2D;
+			playerNodeStyle.normal.textColor = Color.white;
+			playerNodeStyle.padding = new RectOffset(20, 20, 20, 20);
+			playerNodeStyle.border = new RectOffset(12, 12, 12, 12);
 		}
 
 		
@@ -83,6 +95,12 @@ namespace Dialogue
         // 계속 호출
 		private void OnGUI()
 		{
+			if (Event.current.type == EventType.ValidateCommand
+				&& Event.current.commandName == "UndoRedoPerformed")
+			{
+				Repaint();
+			}
+
 			if (selectedDialogue == null)
 			{
                 EditorGUILayout.LabelField("No Dialogue Selected.");
@@ -94,7 +112,13 @@ namespace Dialogue
 				// Auto Layout인 것만 인식해 scroll bar를 생성한다.
 				scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
 
-				GUILayoutUtility.GetRect(4000, 4000);
+				Rect canvas = GUILayoutUtility.GetRect(canvasSize, canvasSize);
+				// Editor/Resources에 있는 file을 load
+			 	Texture2D backgroundTexture = Resources.Load("background") as Texture2D;
+				Rect textureCoordinates = new Rect(0, 0, canvasSize/backgroundTextureSize, canvasSize / backgroundTextureSize);
+				// Grid(Tile)의 형태로 그려준다
+				// DrawTexture는 한개만 딱 그려준다
+				GUI.DrawTextureWithTexCoords(canvas, backgroundTexture, textureCoordinates);
 
 				// 노드를 가리지 않도록 연결선을 뒤에 그린다.
 				foreach (DialogueNode node in selectedDialogue.GetAllNodes())
@@ -111,15 +135,11 @@ namespace Dialogue
 
 				if (creatingNode != null)
 				{
-					// 저장하면 Undo를 할 수 있도록 함
-					Undo.RecordObject(selectedDialogue, "Added Dialouge Node");
 					selectedDialogue.CreateNode(creatingNode);
 					creatingNode = null;
 				}
 				if (deletingNode != null)
 				{
-					// 삭제하면 Undo를 할 수 있도록 함
-					Undo.RecordObject(selectedDialogue, "Deleted Dialouge Node");
 					selectedDialogue.DeleteNode(deletingNode);
 					deletingNode = null;
 				}
@@ -128,10 +148,10 @@ namespace Dialogue
 
 		private void DrawConnections(DialogueNode node)
 		{
-			Vector3 startPos = new Vector2(node.rect.xMax, node.rect.center.y);
+			Vector3 startPos = new Vector2(node.Rect.xMax, node.Rect.center.y);
 			foreach (DialogueNode childNode in selectedDialogue.GetAllChildren(node))
 			{
-				Vector3 endPos = new Vector2(childNode.rect.xMin, childNode.rect.center.y);
+				Vector3 endPos = new Vector2(childNode.Rect.xMin, childNode.Rect.center.y);
 				Vector3 controlPointOffest = endPos - startPos;
 				controlPointOffest.y = 0;
 				controlPointOffest.x *= 0.8f;
@@ -151,21 +171,22 @@ namespace Dialogue
 				draggingNode = GetNodeAtPoint(Event.current.mousePosition + scrollPosition);
 				if (draggingNode != null)
 				{
-					draggingOffset = draggingNode.rect.position - Event.current.mousePosition;
+					draggingOffset = draggingNode.Rect.position - Event.current.mousePosition;
+					Selection.activeObject = draggingNode;
 				}
 				else
 				{
 					// Record dragOffset and dragging
 					isDraggingCanvas = true;
 					draggingCanvasOffset = scrollPosition + Event.current.mousePosition;
+					Selection.activeObject = selectedDialogue;
 				}
 			}
 			// Left MouseDrag with Node
 			else if (Event.current.type == EventType.MouseDrag && draggingNode != null
 					 && Event.current.button == 0)
 			{
-				Undo.RecordObject(selectedDialogue, "Move Dialogue Node");
-				draggingNode.rect.position = Event.current.mousePosition + draggingOffset;
+				draggingNode.SetPosition(Event.current.mousePosition + draggingOffset);
 				Repaint();
 			}
 			// Left MouseDrag without Node
@@ -192,26 +213,16 @@ namespace Dialogue
 
 		private void DrawNode(DialogueNode node)
 		{
-			// Rect를 그린다
-			GUILayout.BeginArea(node.rect, nodeStyle);
 
-			// 변경 되었는지 확인 시작
-			EditorGUI.BeginChangeCheck();
-
-			string newContext = EditorGUILayout.TextField(node.context);
-
-			// 변경 되었는지 확인 종료
-			if (EditorGUI.EndChangeCheck())
+			GUIStyle style = nonPlayerNodeStyle;
+			if (node.IsPlayerSpeaking)
 			{
-				// 저장하면 Undo를 할 수 있도록 함
-				Undo.RecordObject(selectedDialogue, "Update Dialogue Text");
-
-				node.context = newContext;
-
-				// 저장하기 위해 DirtyFlag 설정
-				EditorUtility.SetDirty(selectedDialogue);
+				style = playerNodeStyle;
 			}
 
+			GUILayout.BeginArea(node.Rect, style);
+
+			node.Context = EditorGUILayout.TextField(node.Context);
 			GUILayout.BeginHorizontal();
 			if (GUILayout.Button("-"))
 			{
@@ -240,7 +251,7 @@ namespace Dialogue
 			// 연결 중 이고, 부모 노드이면
 			else if (node == linkingParentNode)
 			{
-				if (GUILayout.Button("cancel"))
+				if (GUILayout.Button("done"))
 				{
 					linkingParentNode = null;
 				}
@@ -249,13 +260,11 @@ namespace Dialogue
 			else
 			{
 				// 이미 연결된 상태면
-				if (linkingParentNode.children.Contains(node.uniqueID))
+				if (linkingParentNode.Children.Contains(node.name))
 				{
 					if (GUILayout.Button("unlink"))
 					{
-						Undo.RecordObject(selectedDialogue, "Remove Dialogue Link");
-						linkingParentNode.children.Remove(node.uniqueID);
-						//linkingParentNode = null;
+						linkingParentNode.RemoveChild(node.name);
 					}
 				}
 				// 연결되지 않은 상태면
@@ -263,9 +272,7 @@ namespace Dialogue
 				{
 					if (GUILayout.Button("child"))
 					{
-						Undo.RecordObject(selectedDialogue, "Add Dialogue Link");
-						linkingParentNode.children.Add(node.uniqueID);
-						//linkingParentNode = null;
+						linkingParentNode.AddChild(node.name);
 					}
 				}
 			}
@@ -276,7 +283,7 @@ namespace Dialogue
 			DialogueNode foundNode = null;
 			foreach (DialogueNode node in selectedDialogue.GetAllNodes())
 			{
-				if (node.rect.Contains(point))
+				if (node.Rect.Contains(point))
 				{
 					foundNode = node;
 					return node;
