@@ -59,7 +59,7 @@ namespace Dialogue
             }
         }
         [SerializeField]
-        private Rect _rect = new Rect(0, 0, 200, 100);
+        private Rect _rect = new Rect(0, 0, 300, 120);
         public Rect Rect
         {
             get
@@ -69,6 +69,36 @@ namespace Dialogue
             set
             {
                 _rect = value;
+                EditorUtility.SetDirty(this);
+            }
+        }
+
+        [SerializeField]
+        private string _onEnterAction = "";
+        public string OnEnterAction
+		{
+			get
+            {
+                return _onEnterAction;
+            }
+            set
+            {
+                _onEnterAction = value;
+                EditorUtility.SetDirty(this);
+            }
+        }
+
+        [SerializeField]
+        private string _onExitAction = "";
+        public string OnExitAction
+        {
+            get
+            {
+                return _onExitAction;
+            }
+            set
+            {
+                _onExitAction = value;
                 EditorUtility.SetDirty(this);
             }
         }

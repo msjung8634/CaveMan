@@ -222,7 +222,8 @@ namespace Dialogue
 
 			GUILayout.BeginArea(node.Rect, style);
 
-			node.Context = EditorGUILayout.TextField(node.Context);
+			node.Context = EditorGUILayout.TextField(node.Context, GUILayout.Height(58));
+
 			GUILayout.BeginHorizontal();
 			if (GUILayout.Button("-"))
 			{

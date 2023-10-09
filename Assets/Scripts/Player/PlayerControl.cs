@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using FSM;
+using Dialogue;
 
 namespace Player
 {
@@ -10,6 +11,7 @@ namespace Player
     [RequireComponent(typeof(PlayerAnimation))]
     [RequireComponent(typeof(Rigidbody2D))]
     [RequireComponent(typeof(Health))]
+    [RequireComponent(typeof(PlayerConversant))]
     public class PlayerControl : MonoBehaviour
     {
         [Header("Move")]
@@ -74,10 +76,22 @@ namespace Player
         [SerializeField]
         private GameObject rightAttackHitBox;
 
+        [System.Serializable]
+		struct CursorMapping
+        {
+            public CursorType type;
+            public Texture2D texture;
+            public Vector2 hotspot;
+        }
+
+        [SerializeField]
+        CursorMapping[] cursorMappings = null;
+
         private PlayerStateMachine stateMachine;
         private PlayerAnimation animation;
         private Rigidbody2D rigidbody2D;
         private Health health;
+        private PlayerConversant conversant;
 
         private void Awake()
 		{
@@ -85,6 +99,7 @@ namespace Player
             TryGetComponent(out animation);
             TryGetComponent(out rigidbody2D);
             TryGetComponent(out health);
+            TryGetComponent(out conversant);
 		}
 
         private void FixedUpdate()
@@ -114,7 +129,7 @@ namespace Player
             }
             #endregion
             #region Air Friction
-            // 지면이 아닌 경우 좌우이동 정지
+            // 지면이 아닌 경우 좌우이동 안하면 정지
             if (!stateMachine.IsGrounded && Mathf.Abs(inputHorizontal) < 0.01f)
             {
                 // 현재속력, 마찰력 중 작은 크기
@@ -259,6 +274,9 @@ namespace Player
             if (health.CurrentHealth == 0)
                 animation.IsDead = true;
 
+            if (InteractWithCursor())
+                return;
+
             ProcessCombatInput();
             ProcessMoveInput();
         }
@@ -347,6 +365,64 @@ namespace Player
         private void LateUpdate()
         {
             // Camera
+        }
+
+
+        private bool InteractWithCursor()
+        {
+            if (RaycastInteractable(out IRaycastable target))
+            {
+                if (Input.GetMouseButtonDown(0))
+                {
+                    // 대화 시작
+                    target.HandleRaycast(this);
+                }
+
+                SetCursor(target.GetCursorType());
+                return true;
+            }
+
+            Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+            return false;
+        }
+
+        private bool RaycastInteractable(out IRaycastable target)
+        {
+            target = null;
+
+            bool hasHit = Physics.Raycast(GetMousRay(), out RaycastHit hit);
+            
+            if (!hasHit)
+                return false;
+
+            hit.transform.gameObject.TryGetComponent(out IRaycastable conversant);
+            target = conversant;
+
+            return true;
+        }
+
+        private void SetCursor(CursorType type)
+        {
+            CursorMapping mapping = GetCursorMapping(type);
+            Cursor.SetCursor(mapping.texture, mapping.hotspot, CursorMode.Auto);
+        }
+
+        private CursorMapping GetCursorMapping(CursorType type)
+        {
+            foreach (CursorMapping mapping in cursorMappings)
+            {
+                if (mapping.type == type)
+                {
+                    return mapping;
+                }
+            }
+            return cursorMappings[0];
+        }
+
+        public static Ray GetMousRay()
+        {
+            float distance = (Mathf.Abs(Camera.main.transform.position.z) + 1);
+            return new Ray(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector3.forward * distance);
         }
     }
 }
