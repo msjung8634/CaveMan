@@ -39768,17 +39768,18 @@ MonoBehaviour:
   jumpCutMultiplier: 0.2
   gravityScale: 1.06
   fallGravityMultiplier: 1.02
-  <LastHookTarget>k__BackingField: {fileID: 0}
+  grappleIndicator: {fileID: 3414375115728289284}
   ropeReelSpeed: 6
   grappleAcceleration: 0.5
   grappleDeceleration: 2
+  grappleDelay: 1
   attackIndicator: {fileID: 1664080074}
   attackDelay: 0.5
   attackDetectionDuration: 0.3
   dodgeIndicator: {fileID: 1793373099}
   dodgeDelay: 2
-  dodgeForce: 200
-  dodgeDuration: 0.1
+  dodgeForce: 300
+  dodgeDuration: 0.2
   knockBackForce: 50
   knockBackDuration: 0.1
   playerHitBox: {fileID: 16267207}
@@ -39842,7 +39843,7 @@ MonoBehaviour:
   <IsGrounded>k__BackingField: 0
   <IsAgainstLeftWall>k__BackingField: 0
   <IsAgainstRightWall>k__BackingField: 0
-  <NearestHookTarget>k__BackingField: {fileID: 0}
+  <NearestHookablePlatform>k__BackingField: {fileID: 0}
   leftRayOffset: {x: -0.2, y: -0.3, z: 0}
   rightRayOffset: {x: 0.2, y: -0.3, z: 0}
   downRayOffset: {x: 0, y: -0.3, z: 0}
@@ -41432,6 +41433,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43456bcbe4b5464d85d5505c50e58c6, type: 3}
+--- !u!114 &3414375115728289284 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4451047085473619567, guid: a43456bcbe4b5464d85d5505c50e58c6, type: 3}
+  m_PrefabInstance: {fileID: 3414375115728289283}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8986029962332842622
 PrefabInstance:
   m_ObjectHideFlags: 0

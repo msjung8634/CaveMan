@@ -23,7 +23,7 @@ namespace Player
         [field: SerializeField]
         public bool IsAgainstRightWall { get; private set; }
         [field: SerializeField]
-        public HookablePlatform NearestHookTarget { get; set; } = null;
+        public HookablePlatform NearestHookablePlatform { get; set; } = null;
 
         public Vector3 leftRayOffset = new Vector3(-.2f, -.3f, 0);
         public Vector3 rightRayOffset = new Vector3(.2f, -.3f, 0);
@@ -161,7 +161,7 @@ namespace Player
 
         private void CheckHookablePlatform()
         {
-            NearestHookTarget = null;
+            NearestHookablePlatform = null;
 
             float minDistance = float.MaxValue;
             Collider[] colliders = Physics.OverlapSphere(transform.position, platformCheckRadius, LayerMask.GetMask("Hookable"));
@@ -175,7 +175,7 @@ namespace Player
                 float distance = Vector3.Distance(transform.position, collider.transform.position);
                 if (platform != null && distance < minDistance)
                 {
-                    NearestHookTarget = platform;
+                    NearestHookablePlatform = platform;
                     minDistance = distance;
                 }
             }

@@ -47,8 +47,10 @@ namespace Player
         [SerializeField]
         private float fallGravityMultiplier = 1f;
 
-        [field:Header("Grappling")]
-        [field:SerializeField]
+        [Header("Grappling")]
+        [SerializeField]
+        private Image grappleIndicator;
+        [SerializeField]
         public HookablePlatform LastHookTarget { get; set; } = null;
         [SerializeField]
         private float ropeReelSpeed = 5f;
@@ -56,6 +58,9 @@ namespace Player
         private float grappleAcceleration = 1f;
         [SerializeField]
         private float grappleDeceleration = 2f;
+        [SerializeField]
+        private float grappleDelay = 1f;
+        private float grappleCoolDown = 0f;
 
         [Header("Combat")]
         // Indicator가 Player Control을 갖고있는게 낫지 않을까?
@@ -121,6 +126,7 @@ namespace Player
             attackCoolDown = Mathf.Max(0, attackCoolDown - Time.fixedDeltaTime);
             dodgeCoolDown = Mathf.Max(0, dodgeCoolDown - Time.fixedDeltaTime);
             jumpCoolDown = Mathf.Max(0, jumpCoolDown - Time.fixedDeltaTime);
+            grappleCoolDown = Mathf.Max(0, grappleCoolDown - Time.fixedDeltaTime);
 
             if (animation.IsDodge)
                 StartCoroutine(Dodge(dodgeDuration));
@@ -199,8 +205,8 @@ namespace Player
             dodgeCoolDown = dodgeDelay;
 
             stateMachine.SetControlState(ControlState.Uncontrollable);
+            stateMachine.SetHitState(HitState.Unhittable);
             playerHitBox.SetActive(false);
-
             
             if (stateMachine.PhysicsType == PhysicsType.Velocity)
             {
@@ -223,16 +229,11 @@ namespace Player
                 if (stateMachine.IsAgainstLeftWall
                     || stateMachine.IsAgainstRightWall)
                 {
-                    Debug.Log("Dodge(dodgeDuration) : Hit Wall");
                     rigidbody2D.velocity = Vector2.zero;
                     break;
                 }
 
-                // 서서히 감속
-                if (elapsedTime >= duration / 2)
-                {
-                    moveDecceleration = decceleration / 2;
-                }
+                moveDecceleration = decceleration / (duration / elapsedTime);
 
                 yield return new WaitForFixedUpdate();
             }
@@ -240,6 +241,7 @@ namespace Player
             moveDecceleration = decceleration;
 
             playerHitBox.SetActive(true);
+            stateMachine.SetHitState(HitState.Hittable);
             stateMachine.SetControlState(ControlState.Controllable);
         }
         private void Move()
@@ -318,17 +320,20 @@ namespace Player
 
         private void Grapple()
         {
-            if (stateMachine.NearestHookTarget == null)
+            // 불가피하게 범위를 벗어난 경우 강제로 Grapple Rope를 끊는다
+            if (stateMachine.NearestHookablePlatform == null)
             {
                 if (LastHookTarget != null)
+				{
                     LastHookTarget.Unhook(this);
+                }
 
                 return;
             }
 
-            stateMachine.NearestHookTarget.TryGetComponent(out HookablePlatform platform);
+            stateMachine.NearestHookablePlatform.TryGetComponent(out HookablePlatform platform);
             // Hook
-            if (inputHook > 0)
+            if (inputHook > 0 && grappleCoolDown == 0)
             {
                 platform.Hook(this, platform);
             }
@@ -345,6 +350,11 @@ namespace Player
             }
         }
 
+        public void ResetGrappleCoolDown()
+		{
+            grappleCoolDown = grappleDelay;
+        }
+
         private void OnTriggerEnter2D(Collider2D collision)
         {
             // 적과 충돌한 경우
@@ -354,6 +364,7 @@ namespace Player
 
         private void Update()
         {
+            grappleIndicator.fillAmount = (grappleDelay - grappleCoolDown) / grappleDelay;
             attackIndicator.fillAmount = (attackDelay - attackCoolDown) / attackDelay;
             dodgeIndicator.fillAmount = (dodgeDelay - dodgeCoolDown) / dodgeDelay;
 
@@ -481,9 +492,9 @@ namespace Player
                 SetCursor(target.GetCursorType());
                 return true;
             }
-            else if (stateMachine.NearestHookTarget != null)
+            else if (stateMachine.NearestHookablePlatform != null)
             {
-                SetCursor(stateMachine.NearestHookTarget.GetCursorType());
+                SetCursor(stateMachine.NearestHookablePlatform.GetCursorType());
                 return false;
             }
 

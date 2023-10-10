@@ -40,6 +40,7 @@ public class HookablePlatform : MonoBehaviour, IRaycastable
             grappling.UnHook(playerControl, this);
 
             playerControl.LastHookTarget = null;
+            playerControl.ResetGrappleCoolDown();
         }
     }
 }
