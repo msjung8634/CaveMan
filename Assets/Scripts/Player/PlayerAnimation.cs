@@ -33,19 +33,10 @@ namespace Player
 
 		void Update()
         {
-			switch (stateMachine.MoveType)
-			{
-				case FSM.MoveType.Horizontal:
-					if (LastDirection == Vector2.left)
-						spriteRenderer.flipX = true;
-					else if (LastDirection == Vector2.right)
-						spriteRenderer.flipX = false;
-					break;
-				case FSM.MoveType.Horizontal_Vertical:
-					break;
-				default:
-					break;
-			}
+			if (LastDirection == Vector2.left)
+				spriteRenderer.flipX = true;
+			else if (LastDirection == Vector2.right)
+				spriteRenderer.flipX = false;
 
 			Animate();
 		}

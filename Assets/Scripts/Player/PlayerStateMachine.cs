@@ -8,8 +8,6 @@ namespace Player
 {
     public class PlayerStateMachine : StateMachine
     {
-        // 체력을 여기에 갖고 있는게 낫지 않을까?
-
         [SerializeField]
         private Color debugColor;
 

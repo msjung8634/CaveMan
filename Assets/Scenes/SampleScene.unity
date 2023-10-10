@@ -39319,7 +39319,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532348687}
-  m_BodyType: 2
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -39328,10 +39328,10 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
+  m_Interpolate: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!1 &1642191752
 GameObject:
   m_ObjectHideFlags: 3
@@ -39757,6 +39757,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b16c81832ce7974cb4ae1166a25d430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocityLimitX: 10
+  velocityLimitY: 10
   moveSpeed: 12
   stopDif: 1
   moveAcceleration: 2
@@ -39766,25 +39768,27 @@ MonoBehaviour:
   jumpForce: 120
   coyoteTime: 0.1
   jumpCutMultiplier: 0.2
-  gravityScale: 1.06
-  fallGravityMultiplier: 1.02
+  isWallJump: 0
+  gravityScale: 1
+  fallGravityMultiplier: 1.03
+  wallSlideGravityScale: 0.2
   grappleIndicator: {fileID: 3414375115728289284}
+  grappleDelay: 0.2
   ropeReelSpeed: 6
   grappleAcceleration: 0.5
   grappleDeceleration: 2
-  grappleDelay: 1
+  leftAttackHitBox: {fileID: 1893941979}
+  rightAttackHitBox: {fileID: 273555029}
   attackIndicator: {fileID: 1664080074}
   attackDelay: 0.5
   attackDetectionDuration: 0.3
   dodgeIndicator: {fileID: 1793373099}
   dodgeDelay: 2
-  dodgeForce: 300
+  dodgeForce: 800
   dodgeDuration: 0.2
-  knockBackForce: 50
-  knockBackDuration: 0.1
   playerHitBox: {fileID: 16267207}
-  leftAttackHitBox: {fileID: 1893941979}
-  rightAttackHitBox: {fileID: 273555029}
+  knockBackForce: 100
+  knockBackDuration: 0.2
   cursorMappings:
   - type: 0
     texture: {fileID: 2800000, guid: f39c1673d3d3bc14f88a5b37b56f657f, type: 3}
@@ -39834,8 +39838,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99f8ffd6d5b7ed144aa24ee0937931db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <PhysicsType>k__BackingField: 0
-  <MoveType>k__BackingField: 0
   <ControlState>k__BackingField: 0
   <HitState>k__BackingField: 0
   debugColor: {r: 1, g: 0, b: 0, a: 0.39215687}

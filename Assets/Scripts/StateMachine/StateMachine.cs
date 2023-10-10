@@ -5,21 +5,6 @@ using UnityEngine;
 namespace FSM
 {
     /// <summary>
-    /// 물리처리 방식
-    /// </summary>
-    public enum PhysicsType
-	{
-        /// <summary>
-        /// rb.AddForce 사용
-        /// </summary>
-        Force,
-        /// <summary>
-        /// rb.velocity 사용
-        /// </summary>
-        Velocity,
-	}
-
-    /// <summary>
     /// 이동 방식
     /// </summary>
     public enum MoveType
@@ -56,26 +41,10 @@ namespace FSM
     public class StateMachine : MonoBehaviour
     {
         [field: SerializeField]
-        public PhysicsType PhysicsType { get; private set; } = PhysicsType.Velocity;
-
-        [field: SerializeField]
-        public MoveType MoveType { get; private set; } = MoveType.Horizontal;
-
-        [field: SerializeField]
         public ControlState ControlState { get; private set; } = ControlState.Controllable;
 
         [field: SerializeField]
         public HitState HitState { get; private set; } = HitState.Hittable;
-
-        public virtual void SetPhysicsType(PhysicsType type)
-        {
-            PhysicsType = type;
-        }
-
-        public virtual void SetMoveType(MoveType type)
-        {
-            MoveType = type;
-        }
 
         public virtual void SetControlState(ControlState state)
 		{
@@ -89,7 +58,6 @@ namespace FSM
 
         protected virtual void InitializeStateMachine()
 		{
-            SetMoveType(MoveType.Horizontal);
             SetControlState(ControlState.Controllable);
             SetHitState(HitState.Hittable);
         }
