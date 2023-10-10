@@ -42,6 +42,7 @@ public class GrapplingHook : MonoBehaviour
             playerPos = new Vector3(playerPos.x, playerPos.y, -1);
             lineRenderer.SetPosition(0, playerPos);
             Vector3 platformPos = playerControl.LastHookTarget.transform.position;
+            platformPos = new Vector3(platformPos.x, platformPos.y, -1);
             lineRenderer.SetPosition(1, platformPos);
         }
     }

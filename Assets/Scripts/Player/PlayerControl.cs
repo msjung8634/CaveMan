@@ -35,6 +35,10 @@ namespace Player
         private float jumpDelay = .5f;
         [SerializeField]
         private float jumpForce = 50f;
+        [SerializeField]
+        private float coyoteTime = .5f;
+        [SerializeField]
+        private float jumpCutMultiplier = .5f;
 
         private float jumpCoolDown = 0f;
         [Header("Fall")]
@@ -197,7 +201,18 @@ namespace Player
             stateMachine.SetControlState(ControlState.Uncontrollable);
             playerHitBox.SetActive(false);
 
-            rigidbody2D.velocity = dodgeForce * -animation.LastDirection;
+            
+            if (stateMachine.PhysicsType == PhysicsType.Velocity)
+            {
+                rigidbody2D.velocity = dodgeForce * -animation.LastDirection;
+            }
+
+            float decceleration = moveDecceleration;
+            if (stateMachine.PhysicsType == PhysicsType.Force)
+            {
+                moveDecceleration = 0;
+                rigidbody2D.AddForce(dodgeForce * -animation.LastDirection, ForceMode2D.Impulse);
+            }
 
             float elapsedTime = 0f;
             while (elapsedTime < duration)
@@ -212,20 +227,29 @@ namespace Player
                     rigidbody2D.velocity = Vector2.zero;
                     break;
                 }
+
+                // 서서히 감속
+                if (elapsedTime >= duration / 2)
+                {
+                    moveDecceleration = decceleration / 2;
+                }
+
                 yield return new WaitForFixedUpdate();
             }
+
+            moveDecceleration = decceleration;
 
             playerHitBox.SetActive(true);
             stateMachine.SetControlState(ControlState.Controllable);
         }
         private void Move()
         {
-			switch (stateMachine.PhysicsType)
-			{
-				case PhysicsType.Force:
-					#region Run
+            switch (stateMachine.PhysicsType)
+            {
+                case PhysicsType.Force:
+                    #region Run
                     // 제어 불가이면 inputHorizontal을 0으로 간주
-					if (stateMachine.ControlState == ControlState.Uncontrollable)
+                    if (stateMachine.ControlState == ControlState.Uncontrollable)
                         inputHorizontal = 0;
 
                     // 목표 속도
@@ -234,7 +258,7 @@ namespace Player
                     float velocityDif = targetVelocity - rigidbody2D.velocity.x;
                     // 가속 비율
                     float accelRate = (Mathf.Abs(targetVelocity) > 0.01f) ? moveAcceleration : moveDecceleration;
-                    
+
                     // Grappling이면 가속/감속비율 낮춤
                     if (stateMachine.ControlState == ControlState.Grappling)
                     {
@@ -252,32 +276,44 @@ namespace Player
                         || stateMachine.ControlState == ControlState.Grappling)
                         return;
 
-                    if (stateMachine.IsGrounded
+                    // Jump Cut 적용
+                    if (!stateMachine.IsGrounded && rigidbody2D.velocity.y > 0
+                        && inputJump < 0)
+                    {
+                        rigidbody2D.AddForce(Vector2.down * rigidbody2D.velocity.y * (1 - jumpCutMultiplier), ForceMode2D.Impulse);
+                    }
+
+                    // Coyote Time 적용
+                    if ((stateMachine.IsGrounded || CheckCoyoteTime())
                         && inputJump > 0)
-					{
+                    {
                         // 점프 전 y축 속도를 0으로 초기화
                         rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, 0);
                         rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-                        
-                        //Debug.Log($"inputJump : {inputJump}");
                     }
                     #endregion
                     break;
-				case PhysicsType.Velocity:
-					#region Run
-					rigidbody2D.velocity = new Vector2(inputHorizontal * moveSpeed, 0);
-					#endregion
-					#region Jump
-					if (inputJump > 0
+                case PhysicsType.Velocity:
+                    #region Run
+                    rigidbody2D.velocity = new Vector2(inputHorizontal * moveSpeed, 0);
+                    #endregion
+                    #region Jump
+                    if (inputJump > 0
                         && stateMachine.IsGrounded)
                     {
                         rigidbody2D.velocity += new Vector2(0, inputJump * jumpForce);
                     }
-					#endregion
-					break;
-				default:
-					break;
-			}
+                    #endregion
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        private bool CheckCoyoteTime()
+        {
+            return (stateMachine.LastGroundTime > Time.fixedDeltaTime
+                    && stateMachine.LastGroundTime < Time.fixedDeltaTime + coyoteTime);
         }
 
         private void Grapple()
