@@ -330,7 +330,6 @@ namespace Player
             ProcessCombatInput();
             ProcessMoveInput();
             ProcessGrappleInput();
-            Debug.Log($"attack:{inputAttack} / dodge:{inputDodge} / jump:{inputJump} / hook:{inputHook} / reelRope:{inputReelRope}");
         }
 
         float inputDodge;

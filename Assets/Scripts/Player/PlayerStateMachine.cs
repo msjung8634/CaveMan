@@ -10,6 +10,9 @@ namespace Player
     {
         // 체력을 여기에 갖고 있는게 낫지 않을까?
 
+        [SerializeField]
+        private Color debugColor;
+
         // ControlState
         [field: SerializeField]
         public float LastGroundTime { get; private set; }
@@ -133,8 +136,29 @@ namespace Player
 			{
                 IsGrounded = true;
                 LastGroundTime = 0;
+
+                if (downHit)
+                    SetParentMovablePlatform(downHit);
+                else if (downHit2)
+                    SetParentMovablePlatform(downHit2);
+                else if (downHit3)
+                    SetParentMovablePlatform(downHit3);
+            }
+            else
+            {
+                transform.SetParent(null);
             }
         }
+
+        private void SetParentMovablePlatform(RaycastHit2D downHit)
+        {
+            Collider2D collider2D = downHit.collider;
+            if (collider2D.gameObject.transform.parent.TryGetComponent(out MovablePlatform movable))
+            {
+                transform.SetParent(collider2D.transform.parent);
+            }
+        }
+
         private void CheckHookablePlatform()
         {
             NearestHookTarget = null;
@@ -143,6 +167,10 @@ namespace Player
             Collider[] colliders = Physics.OverlapSphere(transform.position, platformCheckRadius, LayerMask.GetMask("Hookable"));
             foreach (Collider collider in colliders)
             {
+                // 플레이어보다 위에 있는 Platform만 검사
+                if (collider.transform.position.y <= transform.position.y)
+                    continue;
+
                 collider.gameObject.TryGetComponent(out HookablePlatform platform);
                 float distance = Vector3.Distance(transform.position, collider.transform.position);
                 if (platform != null && distance < minDistance)
@@ -155,7 +183,7 @@ namespace Player
 
         private void OnDrawGizmos()
         {
-            Gizmos.color = Color.red;
+            Gizmos.color = debugColor;
             Gizmos.DrawSphere(transform.position, platformCheckRadius);
         }
     }

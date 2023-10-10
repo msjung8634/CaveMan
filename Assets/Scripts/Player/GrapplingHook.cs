@@ -25,6 +25,15 @@ public class GrapplingHook : MonoBehaviour
         lineRenderer.enabled = false;
     }
 
+    private void FixedUpdate()
+    {
+        if (playerControl.LastHookTarget != null)
+        {
+            Vector3 platformPos = playerControl.LastHookTarget.transform.position;
+            distanceJoint.connectedAnchor = platformPos;
+        }
+    }
+
     private void Update()
     {
         if (playerControl.LastHookTarget != null)
@@ -32,11 +41,19 @@ public class GrapplingHook : MonoBehaviour
             Vector3 playerPos = transform.position;
             playerPos = new Vector3(playerPos.x, playerPos.y, -1);
             lineRenderer.SetPosition(0, playerPos);
+            Vector3 platformPos = playerControl.LastHookTarget.transform.position;
+            lineRenderer.SetPosition(1, platformPos);
         }
     }
 
-    public void Hook(HookablePlatform platform)
+    public void Hook(PlayerControl playerControl, HookablePlatform platform)
     {
+        // Movable Platform이면 플레이어가 부모로 들어감
+        if (platform.TryGetComponent(out MovablePlatform movable))
+        {
+            playerControl.transform.SetParent(platform.transform);
+        }
+
         // 선 연결
         lineRenderer.positionCount = 2;
         Vector3 platformPos = platform.transform.position;
@@ -54,8 +71,14 @@ public class GrapplingHook : MonoBehaviour
         lineRenderer.enabled = true;
     }
 
-    public void UnHook()
+    public void UnHook(PlayerControl playerControl, HookablePlatform platform)
     {
+        // Movable Platform이면 플레이어가 부모를 버림
+        if (platform.TryGetComponent(out MovablePlatform movable))
+        {
+            playerControl.transform.SetParent(null);
+        }
+
         // 단선
         lineRenderer.positionCount = 0;
         playerControl.LastHookTarget = null;

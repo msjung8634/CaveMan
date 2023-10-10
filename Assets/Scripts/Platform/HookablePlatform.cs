@@ -23,7 +23,7 @@ public class HookablePlatform : MonoBehaviour, IRaycastable
             stateMachine.SetControlState(FSM.ControlState.Grappling);
 
             playerControl.TryGetComponent(out GrapplingHook grappling);
-            grappling.Hook(this);
+            grappling.Hook(playerControl, this);
 
             playerControl.LastHookTarget = platform;
         }
@@ -37,7 +37,7 @@ public class HookablePlatform : MonoBehaviour, IRaycastable
             stateMachine.SetControlState(FSM.ControlState.Controllable);
 
             playerControl.TryGetComponent(out GrapplingHook grappling);
-            grappling.UnHook();
+            grappling.UnHook(playerControl, this);
 
             playerControl.LastHookTarget = null;
         }

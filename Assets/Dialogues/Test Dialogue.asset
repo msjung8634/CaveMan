@@ -292,7 +292,7 @@ MonoBehaviour:
   _rect:
     serializedVersion: 2
     x: 1767
-    y: 405
+    y: 406
     width: 300
     height: 120
   _onEnterAction: 
