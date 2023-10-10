@@ -21,14 +21,15 @@ namespace Player
         [Range(0f, 4f)]
         private float stopDif = 1f;
         [SerializeField]
-        private float acceleration = 1f;
+        private float moveAcceleration = 2f;
         [SerializeField]
-        private float decceleration = 1f;
+        private float moveDecceleration = 6f;
         [SerializeField]
         [Range(2f, 4f)]
         private float velPower = 2f;
         [Range(0f, 0.2f)]
         private float frictionAmount = 0.2f;
+        
         [Header("Jump")]
         [SerializeField]
         private float jumpDelay = .5f;
@@ -42,8 +43,17 @@ namespace Player
         [SerializeField]
         private float fallGravityMultiplier = 1f;
 
-        [Header("Combat")]
+        [field:Header("Grappling")]
+        [field:SerializeField]
+        public HookablePlatform LastHookTarget { get; set; } = null;
+        [SerializeField]
+        private float ropeReelSpeed = 5f;
+        [SerializeField]
+        private float grappleAcceleration = 1f;
+        [SerializeField]
+        private float grappleDeceleration = 2f;
 
+        [Header("Combat")]
         // Indicator가 Player Control을 갖고있는게 낫지 않을까?
         [SerializeField]
         private Image attackIndicator;
@@ -111,15 +121,9 @@ namespace Player
             if (animation.IsDodge)
                 StartCoroutine(Dodge(dodgeDuration));
 
-			#region Ground Friction
-			// 입력이 없고, 속도가 충분히 낮으면 정지
-			if (stateMachine.IsGrounded
-                && inputHorizontal == 0
-                && Mathf.Abs(rigidbody2D.velocity.x) < stopDif)
-                rigidbody2D.velocity = Vector2.zero;
-            #endregion
             #region Fall
-            if (!stateMachine.IsGrounded)
+            if (stateMachine.ControlState != ControlState.Grappling
+                && !stateMachine.IsGrounded)
             {
                 rigidbody2D.gravityScale *= gravityScale * fallGravityMultiplier;
             }
@@ -128,20 +132,31 @@ namespace Player
                 rigidbody2D.gravityScale = gravityScale;
             }
             #endregion
-            #region Air Friction
-            // 지면이 아닌 경우 좌우이동 안하면 정지
-            if (!stateMachine.IsGrounded && Mathf.Abs(inputHorizontal) < 0.01f)
+            if (stateMachine.ControlState != ControlState.Grappling)
             {
-                // 현재속력, 마찰력 중 작은 크기
-                float amount = Mathf.Min(Mathf.Abs(rigidbody2D.velocity.x), Mathf.Abs(frictionAmount));
-                // 이동방향의 반대 방향
-                amount *= Mathf.Sign(rigidbody2D.velocity.x) * -1;
-                // 적용
-                rigidbody2D.AddForce(Vector2.right * amount, ForceMode2D.Impulse);
+                #region Ground Friction
+                // 입력이 없고, 속도가 충분히 낮으면 정지
+                if (stateMachine.IsGrounded
+                    && inputHorizontal == 0
+                    && Mathf.Abs(rigidbody2D.velocity.x) < stopDif)
+                    rigidbody2D.velocity = Vector2.zero;
+                #endregion
+                #region Air Friction
+                // 공중에서 키입력 안하면 좌우이동 정지
+                if (!stateMachine.IsGrounded && Mathf.Abs(inputHorizontal) < 0.01f)
+                {
+                    // 현재속력, 마찰력 중 작은 크기
+                    float amount = Mathf.Min(Mathf.Abs(rigidbody2D.velocity.x), Mathf.Abs(frictionAmount));
+                    // 이동방향의 반대 방향
+                    amount *= Mathf.Sign(rigidbody2D.velocity.x) * -1;
+                    // 외력 적용
+                    rigidbody2D.AddForce(Vector2.right * amount, ForceMode2D.Impulse);
+                }
+                #endregion
             }
-            #endregion
             Move();
-		}
+            Grapple();
+        }
         #region Animation Event
         private void Attack()
         {
@@ -218,17 +233,23 @@ namespace Player
                     // 속도 차이 (벡터)
                     float velocityDif = targetVelocity - rigidbody2D.velocity.x;
                     // 가속 비율
-                    float accelRate = (Mathf.Abs(targetVelocity) > 0.01f) ? acceleration : decceleration;
+                    float accelRate = (Mathf.Abs(targetVelocity) > 0.01f) ? moveAcceleration : moveDecceleration;
+                    
+                    // Grappling이면 가속/감속비율 낮춤
+                    if (stateMachine.ControlState == ControlState.Grappling)
+                    {
+                        accelRate = (Mathf.Abs(targetVelocity) > 0.01f) ? grappleAcceleration : grappleDeceleration;
+                    }
+
                     // 적용할 속도 계산
                     float movement = Mathf.Pow(Mathf.Abs(velocityDif) * accelRate, velPower) * Mathf.Sign(velocityDif);
-
-                    //Debug.Log($"target : {targetVelocity} / dif : {velocityDif} / accelRate : {accelRate} / movement : {movement}");
 
                     rigidbody2D.AddForce(movement * Vector2.right);
                     #endregion
                     #region Jump
                     // 제어 불가이면 Jump 불가
-                    if (stateMachine.ControlState == ControlState.Uncontrollable)
+                    if (stateMachine.ControlState == ControlState.Uncontrollable
+                        || stateMachine.ControlState == ControlState.Grappling)
                         return;
 
                     if (stateMachine.IsGrounded
@@ -259,6 +280,35 @@ namespace Player
 			}
         }
 
+        private void Grapple()
+        {
+            if (stateMachine.NearestHookTarget == null)
+            {
+                if (LastHookTarget != null)
+                    LastHookTarget.Unhook(this);
+
+                return;
+            }
+
+            stateMachine.NearestHookTarget.TryGetComponent(out HookablePlatform platform);
+            // Hook
+            if (inputHook > 0)
+            {
+                platform.Hook(this, platform);
+            }
+            // Unhook
+            else
+            {
+                platform.Unhook(this);
+            }
+
+            // Reel Rope
+            if (TryGetComponent(out DistanceJoint2D joint))
+            {
+                joint.distance += inputReelRope * ropeReelSpeed * Time.fixedDeltaTime;
+            }
+        }
+
         private void OnTriggerEnter2D(Collider2D collision)
         {
             // 적과 충돌한 경우
@@ -279,6 +329,8 @@ namespace Player
 
             ProcessCombatInput();
             ProcessMoveInput();
+            ProcessGrappleInput();
+            Debug.Log($"attack:{inputAttack} / dodge:{inputDodge} / jump:{inputJump} / hook:{inputHook} / reelRope:{inputReelRope}");
         }
 
         float inputDodge;
@@ -288,11 +340,12 @@ namespace Player
             inputDodge = 0;
             inputAttack = 0;
 
-            if (stateMachine.ControlState == ControlState.Uncontrollable)
+            if (stateMachine.ControlState == ControlState.Uncontrollable
+                || stateMachine.ControlState == ControlState.Grappling)
                 return;
 
-            inputDodge = Input.GetAxisRaw("Fire3");
-            inputAttack = Input.GetAxisRaw("Fire1");
+            inputDodge = Input.GetAxisRaw("Dodge");
+            inputAttack = Input.GetAxisRaw("Attack");
 
             animation.IsDodge = false;
             if (stateMachine.IsGrounded
@@ -326,7 +379,10 @@ namespace Player
 			{
 				case MoveType.Horizontal:
                     inputHorizontal = Input.GetAxisRaw("Horizontal");
-                    inputJump = Input.GetAxisRaw("Jump");
+                    if (stateMachine.ControlState != ControlState.Grappling)
+                    {
+                        inputJump = Input.GetAxisRaw("Jump");
+                    }
 
                     // Sprite 반전을 위해 마지막 입력방향 저장
                     Vector2 horizontalDirection = Mathf.Sign(inputHorizontal) * Vector2.right;
@@ -362,36 +418,50 @@ namespace Player
             inputJump = Mathf.Abs(inputJump) > 0 ? Mathf.Sign(inputJump) : 0;
         }
 
+        float inputHook;
+        float inputReelRope;
+        private void ProcessGrappleInput()
+        {
+            inputHook = 0;
+            inputReelRope = 0;
+
+            inputHook = Input.GetAxisRaw("Hook");
+            inputReelRope = -Input.GetAxisRaw("ReelRope");
+        }
+
         private void LateUpdate()
         {
             // Camera
         }
 
-
         private bool InteractWithCursor()
         {
-            if (RaycastInteractable(out IRaycastable target))
+            if (RaycastInteractableTarget(out IRaycastable target))
             {
                 if (Input.GetMouseButtonDown(0))
                 {
-                    // 대화 시작
                     target.HandleRaycast(this);
                 }
 
                 SetCursor(target.GetCursorType());
                 return true;
             }
+            else if (stateMachine.NearestHookTarget != null)
+            {
+                SetCursor(stateMachine.NearestHookTarget.GetCursorType());
+                return false;
+            }
 
             Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
             return false;
         }
 
-        private bool RaycastInteractable(out IRaycastable target)
+        // IRaycastable을 상속받은 Script를 가진 gameObject 검출
+        private bool RaycastInteractableTarget(out IRaycastable target)
         {
             target = null;
 
             bool hasHit = Physics.Raycast(GetMousRay(), out RaycastHit hit);
-            
             if (!hasHit)
                 return false;
 

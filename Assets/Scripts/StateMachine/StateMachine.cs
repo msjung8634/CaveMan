@@ -41,6 +41,7 @@ namespace FSM
     {
         Controllable,
         Uncontrollable,
+        Grappling,
     }
 
     /// <summary>

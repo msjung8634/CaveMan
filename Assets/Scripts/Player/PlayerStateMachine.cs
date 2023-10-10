@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using FSM;
+using System;
 
 namespace Player
 {
@@ -18,6 +19,8 @@ namespace Player
         public bool IsAgainstLeftWall { get; private set; }
         [field: SerializeField]
         public bool IsAgainstRightWall { get; private set; }
+        [field: SerializeField]
+        public HookablePlatform NearestHookTarget { get; set; } = null;
 
         public Vector3 leftRayOffset = new Vector3(-.2f, -.3f, 0);
         public Vector3 rightRayOffset = new Vector3(.2f, -.3f, 0);
@@ -25,6 +28,7 @@ namespace Player
 
         public float horizontalRayDistance = .6f;
         public float verticalRayDistance = .6f;
+        public float platformCheckRadius = 5f;
 
         private void Awake()
 		{
@@ -35,10 +39,11 @@ namespace Player
 		{
             CheckObstacleHorizontal();
             CheckObstacleVertical();
+            CheckHookablePlatform();
             LastGroundTime += Time.fixedDeltaTime;
         }
 
-		private void CheckObstacleHorizontal()
+        private void CheckObstacleHorizontal()
         {
             RaycastHit2D leftHit1 = Physics2D.Raycast(transform.position + leftRayOffset,
                                                      Vector3.left,
@@ -129,6 +134,29 @@ namespace Player
                 IsGrounded = true;
                 LastGroundTime = 0;
             }
+        }
+        private void CheckHookablePlatform()
+        {
+            NearestHookTarget = null;
+
+            float minDistance = float.MaxValue;
+            Collider[] colliders = Physics.OverlapSphere(transform.position, platformCheckRadius, LayerMask.GetMask("Hookable"));
+            foreach (Collider collider in colliders)
+            {
+                collider.gameObject.TryGetComponent(out HookablePlatform platform);
+                float distance = Vector3.Distance(transform.position, collider.transform.position);
+                if (platform != null && distance < minDistance)
+                {
+                    NearestHookTarget = platform;
+                    minDistance = distance;
+                }
+            }
+        }
+
+        private void OnDrawGizmos()
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawSphere(transform.position, platformCheckRadius);
         }
     }
 }
