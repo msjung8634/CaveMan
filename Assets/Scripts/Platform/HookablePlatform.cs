@@ -15,6 +15,14 @@ public class HookablePlatform : MonoBehaviour, IRaycastable
         return false;
     }
 
+    private void Update()
+    {
+        if (TryGetComponent(out SpriteRenderer renderer))
+        {
+            renderer.color = Color.white;
+        }
+    }
+
     public void Hook(PlayerControl playerControl, HookablePlatform platform)
     {
         if (playerControl.LastHookTarget == null)

@@ -1,0 +1,783 @@
+fileFormatVersion: 2
+guid: 479c3cf2957c1e44c9a43a219f1039a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: scorpion-violet-sheet-x1_0
+  - first:
+      213: 21300002
+    second: scorpion-violet-sheet-x1_1
+  - first:
+      213: 21300004
+    second: scorpion-violet-sheet-x1_2
+  - first:
+      213: 21300006
+    second: scorpion-violet-sheet-x1_3
+  - first:
+      213: 21300008
+    second: scorpion-violet-sheet-x1_4
+  - first:
+      213: 21300010
+    second: scorpion-violet-sheet-x1_5
+  - first:
+      213: 21300012
+    second: scorpion-violet-sheet-x1_6
+  - first:
+      213: 21300014
+    second: scorpion-violet-sheet-x1_7
+  - first:
+      213: 21300016
+    second: scorpion-violet-sheet-x1_8
+  - first:
+      213: 21300018
+    second: scorpion-violet-sheet-x1_9
+  - first:
+      213: 21300020
+    second: scorpion-violet-sheet-x1_10
+  - first:
+      213: 21300022
+    second: scorpion-violet-sheet-x1_11
+  - first:
+      213: 21300024
+    second: scorpion-violet-sheet-x1_12
+  - first:
+      213: 21300026
+    second: scorpion-violet-sheet-x1_13
+  - first:
+      213: 21300028
+    second: scorpion-violet-sheet-x1_14
+  - first:
+      213: 21300030
+    second: scorpion-violet-sheet-x1_15
+  - first:
+      213: 21300032
+    second: scorpion-violet-sheet-x1_16
+  - first:
+      213: 21300034
+    second: scorpion-violet-sheet-x1_17
+  - first:
+      213: 21300036
+    second: scorpion-violet-sheet-x1_18
+  - first:
+      213: 21300038
+    second: scorpion-violet-sheet-x1_19
+  - first:
+      213: 21300040
+    second: scorpion-violet-sheet-x1_20
+  - first:
+      213: 21300042
+    second: scorpion-violet-sheet-x1_21
+  - first:
+      213: 21300044
+    second: scorpion-violet-sheet-x1_22
+  - first:
+      213: 21300046
+    second: scorpion-violet-sheet-x1_23
+  - first:
+      213: 21300048
+    second: scorpion-violet-sheet-x1_24
+  - first:
+      213: -8512025636280085965
+    second: scorpion-violet-sheet-x1_0
+  - first:
+      213: 8502321876954111028
+    second: scorpion-violet-sheet-x1_1
+  - first:
+      213: 2004621454083078218
+    second: scorpion-violet-sheet-x1_2
+  - first:
+      213: -3795339251119158253
+    second: scorpion-violet-sheet-x1_3
+  - first:
+      213: 6776073997533217399
+    second: scorpion-violet-sheet-x1_4
+  - first:
+      213: -6951102026457523904
+    second: scorpion-violet-sheet-x1_5
+  - first:
+      213: 8467649035443130007
+    second: scorpion-violet-sheet-x1_6
+  - first:
+      213: -7812499862650090508
+    second: scorpion-violet-sheet-x1_7
+  - first:
+      213: 3211711139717618770
+    second: scorpion-violet-sheet-x1_8
+  - first:
+      213: -6792804604027290279
+    second: scorpion-violet-sheet-x1_9
+  - first:
+      213: 1798467365540463987
+    second: scorpion-violet-sheet-x1_10
+  - first:
+      213: 8137479223808756912
+    second: scorpion-violet-sheet-x1_11
+  - first:
+      213: 215793155072406838
+    second: scorpion-violet-sheet-x1_12
+  - first:
+      213: -382199393983174931
+    second: scorpion-violet-sheet-x1_13
+  - first:
+      213: 1964857274857057150
+    second: scorpion-violet-sheet-x1_14
+  - first:
+      213: 5914488348073826314
+    second: scorpion-violet-sheet-x1_15
+  - first:
+      213: -5540419681615002218
+    second: scorpion-violet-sheet-x1_16
+  - first:
+      213: -4114894216212032432
+    second: scorpion-violet-sheet-x1_17
+  - first:
+      213: 8633970759384671935
+    second: scorpion-violet-sheet-x1_18
+  - first:
+      213: 7245932546611996137
+    second: scorpion-violet-sheet-x1_19
+  - first:
+      213: 5242495209481382609
+    second: scorpion-violet-sheet-x1_20
+  - first:
+      213: -7565116825132318471
+    second: scorpion-violet-sheet-x1_21
+  - first:
+      213: 307082964522377151
+    second: scorpion-violet-sheet-x1_22
+  - first:
+      213: -1236792080359091831
+    second: scorpion-violet-sheet-x1_23
+  - first:
+      213: 764540293597952618
+    second: scorpion-violet-sheet-x1_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332d18e48c53fd980800000000000000
+      internalID: -8512025636280085965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cd1e923b05ef570800000000000000
+      internalID: 8502321876954111028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48bfbf6798d1db10800000000000000
+      internalID: 2004621454083078218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c02f64f0f345bc0800000000000000
+      internalID: -3795339251119158253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7728aba4663790e50800000000000000
+      internalID: 6776073997533217399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04950831989b88f90800000000000000
+      internalID: -6951102026457523904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e44482fe1238570800000000000000
+      internalID: 8467649035443130007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb04fe64cc649390800000000000000
+      internalID: -7812499862650090508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c9804e34a429c20800000000000000
+      internalID: 3211711139717618770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95db054d33c1bb1a0800000000000000
+      internalID: -6792804604027290279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3750c2f4a8075f810800000000000000
+      internalID: 1798467365540463987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc0e366d322ee070800000000000000
+      internalID: 8137479223808756912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6353d013bb6aef200800000000000000
+      internalID: 215793155072406838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de663481da722baf0800000000000000
+      internalID: -382199393983174931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b623ef743944b10800000000000000
+      internalID: 1964857274857057150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a089027f0db741250800000000000000
+      internalID: 5914488348073826314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69541ca67a97c13b0800000000000000
+      internalID: -5540419681615002218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0545f521385f4e6c0800000000000000
+      internalID: -4114894216212032432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6ab3239a602d770800000000000000
+      internalID: 8633970759384671935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5ef33b249be8460800000000000000
+      internalID: 7245932546611996137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da23d9fd9511c840800000000000000
+      internalID: 5242495209481382609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f048a9445e430790800000000000000
+      internalID: -7565116825132318471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf1ee8445af24400800000000000000
+      internalID: 307082964522377151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9811e2dd72806dee0800000000000000
+      internalID: -1236792080359091831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorpion-violet-sheet-x1_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6af068a8513c9a00800000000000000
+      internalID: 764540293597952618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 41e0b749c717a2c44bde3cf7801a01d1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

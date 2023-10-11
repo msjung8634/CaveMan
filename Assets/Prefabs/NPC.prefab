@@ -96,7 +96,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 72
@@ -126,3 +126,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6a28ab76e4f2a4595688ba376a7722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogue: {fileID: 11400000, guid: 50703e7869e24a244a476d644fd2cd3d, type: 2}

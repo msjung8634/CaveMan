@@ -44,6 +44,20 @@ namespace Player
             LastGroundTime += Time.fixedDeltaTime;
         }
 
+        private void LateUpdate()
+        {
+            HighlightNearestHookablePlatform();
+        }
+
+        private void HighlightNearestHookablePlatform()
+        {
+            if (NearestHookablePlatform != null
+                && NearestHookablePlatform.TryGetComponent(out SpriteRenderer renderer))
+            {
+                renderer.color = Color.red;
+            }
+        }
+
         private void CheckObstacleHorizontal()
         {
             RaycastHit2D leftHit1 = Physics2D.Raycast(transform.position + leftRayOffset,
