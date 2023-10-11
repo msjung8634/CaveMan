@@ -7,12 +7,16 @@ namespace Enemy
 {
     [RequireComponent(typeof(BoxCollider2D))]
     [RequireComponent(typeof(Rigidbody2D))]
+    [RequireComponent(typeof(EnemyStateMachine))]
     public class GroundedEnemyAI : MonoBehaviour
     {
-        private BoxCollider2D boxCollider2D;
+		private BoxCollider2D boxCollider2D;
         private Rigidbody2D rigidbody2D;
+        private EnemyStateMachine stateMachine;
 
         private bool isAttacking = false;
+        private bool isHit = false;
+        private bool isDead = false;
 
         [Header("Patrol")]
         [SerializeField]
@@ -38,6 +42,8 @@ namespace Enemy
         private float dashMaxVelocity = 30f;
         [SerializeField]
         private float dashCastDelay = .5f;
+        [SerializeField]
+        private float revertVelocityDelay = .5f;
 
         [Header("Jump Attack")]
         private float jumpHeight = 10f;
@@ -66,17 +72,28 @@ namespace Enemy
         {
             TryGetComponent(out boxCollider2D);
             TryGetComponent(out rigidbody2D);
-
-            firstVelocity = maxVelocity;
-            groundRaySpacing = boxCollider2D.size.x;
+            TryGetComponent(out stateMachine);
         }
 
-        private void FixedUpdate()
+		private void Start()
+		{
+            firstVelocity = maxVelocity;
+            groundRaySpacing = transform.localScale.x;
+            stateMachine.LastDirection = Vector2.left;
+        }
+
+		private void FixedUpdate()
         {
             reverseCoolDown = Mathf.Max(0, reverseCoolDown - Time.fixedDeltaTime);
             attackCoolDown = Mathf.Max(0, attackCoolDown - Time.fixedDeltaTime);
 
-            if (!isAttacking && CheckGround())
+			if (stateMachine.ControlState == FSM.ControlState.Uncontrollable)
+			{
+                Stop(out Vector2 originVelocity);
+                return;
+            }
+
+            if (!isAttacking && IsGrounded())
             {
                 if(TryDetectPlayer(out float distance))
                 {
@@ -89,7 +106,7 @@ namespace Enemy
             }
         }
 
-        private bool CheckGround()
+		private bool IsGrounded()
         {
             Vector2 origin = new Vector2(transform.position.x, transform.position.y) + groundRayOffset;
             Vector2 spacing = new Vector2(groundRaySpacing, 0);
@@ -97,20 +114,17 @@ namespace Enemy
             RaycastHit2D hitLeft = Physics2D.Raycast(origin - spacing, Vector2.down, groundRayLength, LayerMask.GetMask("Obstacle"));
             Debug.DrawLine(transform.position + new Vector3(groundRayOffset.x - spacing.x, groundRayOffset.y, 0), transform.position + new Vector3(groundRayOffset.x - spacing.x, groundRayOffset.y, 0) + Vector3.down * groundRayLength, Color.red);
 
-            RaycastHit2D hitCenter = Physics2D.Raycast(origin, Vector2.down, groundRayLength, LayerMask.GetMask("Obstacle"));
-            Debug.DrawLine(transform.position + new Vector3(groundRayOffset.x, groundRayOffset.y, 0), transform.position + new Vector3(groundRayOffset.x, groundRayOffset.y, 0) + Vector3.down * groundRayLength, Color.red);
-
             RaycastHit2D hitRight = Physics2D.Raycast(origin + spacing, Vector2.down, groundRayLength, LayerMask.GetMask("Obstacle"));
             Debug.DrawLine(transform.position + new Vector3(groundRayOffset.x + spacing.x, groundRayOffset.y, 0), transform.position + new Vector3(groundRayOffset.x + spacing.x, groundRayOffset.y, 0) + Vector3.down * groundRayLength, Color.red);
 
             // 끝이 낭떠러지인 경우
-            if ((hitLeft && hitCenter && !hitRight)
-                || (!hitLeft && hitCenter && hitRight))
+            if ((hitLeft && !hitRight)
+                || (!hitLeft && hitRight))
             {
                 ReverseMovement();
             }
 
-            return hitLeft || hitCenter || hitRight;
+            return hitLeft || hitRight;
         }
 
         private void ReverseMovement()
@@ -129,12 +143,15 @@ namespace Enemy
             accelRate *= -1;
             detectDirection *= -1;
             rigidbody2D.velocity = -originVelocity;
+            if (rigidbody2D.velocity.x != 0)
+            {
+                stateMachine.LastDirection = Vector2.right * Mathf.Sign(-rigidbody2D.velocity.x);
+            }
         }
 
         private void Stop(out Vector2 originVelocity)
         {
             originVelocity = rigidbody2D.velocity;
-            //rigidbody2D.AddForce(-rigidbody2D.velocity * accelRate * rigidbody2D.mass, ForceMode2D.Impulse);
             rigidbody2D.velocity = Vector2.zero;
         }
 
@@ -167,8 +184,9 @@ namespace Enemy
                 return;
             
             // 공격
-            if (distance <= dashDistance)
+            if (Mathf.Abs(distance) <= dashDistance)
             {
+                Debug.Log($"DashAttack:{distance}");
                 attackCoolDown = attackDelay;
                 StartCoroutine(DashAttack(distance));
             }
@@ -177,6 +195,7 @@ namespace Enemy
         private IEnumerator DashAttack(float distance)
         {
             isAttacking = true;
+            stateMachine.IsAttack = true;
 
             // 잠시 정지
             Stop(out Vector2 originVelocity);
@@ -187,9 +206,10 @@ namespace Enemy
             rigidbody2D.velocity = dashMaxVelocity * Vector2.right * Mathf.Sign(distance);
 
             // 속도 복원
-            yield return StartCoroutine(RevertVelocity(originVelocity, .5f));
+            yield return StartCoroutine(RevertVelocity(originVelocity, revertVelocityDelay));
 
             isAttacking = false;
+            stateMachine.IsAttack = false;
         }
 
         private IEnumerator RevertVelocity(Vector2 originVelocity, float delay)

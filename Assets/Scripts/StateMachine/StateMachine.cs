@@ -5,21 +5,6 @@ using UnityEngine;
 namespace FSM
 {
     /// <summary>
-    /// 이동 방식
-    /// </summary>
-    public enum MoveType
-    {
-        /// <summary>
-        /// A/D
-        /// </summary>
-        Horizontal,
-        /// <summary>
-        /// W/A/S/D
-        /// </summary>
-        Horizontal_Vertical,
-    }
-
-    /// <summary>
     /// 제어가능 여부
     /// </summary>
     public enum ControlState
