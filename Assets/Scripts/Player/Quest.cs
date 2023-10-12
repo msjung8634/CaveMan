@@ -21,7 +21,5 @@ public class Quest : MonoBehaviour
 		{
 			questDetailText.color = Color.green;
 		}
-
-		Debug.Log(enemys.Length);
 	}
 }

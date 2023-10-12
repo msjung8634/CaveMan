@@ -5,6 +5,7 @@ using Player;
 
 public enum CursorType
 {
+    Default,
     Dialogue,
     Shop,
     Hookable,

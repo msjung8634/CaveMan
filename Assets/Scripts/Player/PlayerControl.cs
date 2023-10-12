@@ -423,6 +423,10 @@ namespace Player
                 return;
             }
 
+            // 대화 중에는 Grappling을 하지 않는다
+            if (stateMachine.IsTalking)
+                return;
+
             // Hook
             if (stateMachine.NearestHookablePlatform.TryGetComponent(out HookablePlatform platform)
                 && inputHook > 0 && grappleCoolDown == 0)
@@ -649,13 +653,14 @@ namespace Player
         {
             if (RaycastInteractableTarget(out IRaycastable target))
             {
+                if (target == null)
+                    return false;
+
                 if (Input.GetMouseButtonDown(0))
                 {
                     target.HandleRaycast(this);
                 }
-                
-                if (target != null)
-                    SetCursor(target.GetCursorType());
+                SetCursor(target.GetCursorType());
 
                 return true;
             }
@@ -666,7 +671,8 @@ namespace Player
                 return false;
             }
 
-            Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+            //Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+            SetCursor(CursorType.Default);
             return false;
         }
 
