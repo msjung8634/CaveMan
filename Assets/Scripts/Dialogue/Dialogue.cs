@@ -17,12 +17,11 @@ namespace Dialogue
 
 		Dictionary<string, DialogueNode> nodeLookup = new Dictionary<string, DialogueNode>();
 
-#if UNITY_EDITOR
+
 		private void Awake()
 		{
 			OnValidate();
 		}
-#endif
 
 		// Scirptable Object 변경 시 발생하는 이벤트
 		// Build된 exe에서는 동작하지 않음!
@@ -87,23 +86,29 @@ namespace Dialogue
 			}
 		}
 
-#if UNITY_EDITOR
 		public void CreateNode(DialogueNode parentNode)
 		{
+
 			DialogueNode newNode = MakeNode(parentNode);
+#if UNITY_EDITOR
 			// 저장하면 Undo를 할 수 있도록 함
 			Undo.RegisterCreatedObjectUndo(newNode, "Created Dialouge Node");
 			Undo.RecordObject(this, "Added Dialouge Node");
+#endif
 			AddNode(newNode);
 		}
 
 		public void DeleteNode(DialogueNode nodeToDelete)
 		{
+#if UNITY_EDITOR
 			Undo.RecordObject(this, "Deleted Dialouge Node");
+#endif
 			nodes.Remove(nodeToDelete);
 			OnValidate();
 			CleanDanglingChildren(nodeToDelete);
+#if UNITY_EDITOR
 			Undo.DestroyObjectImmediate(nodeToDelete);
+#endif
 		}
 
 		private DialogueNode MakeNode(DialogueNode parentNode)
@@ -135,11 +140,10 @@ namespace Dialogue
 				node.Children.Remove(nodeToDelete.name);
 			}
 		}
-#endif
+
 		public void OnBeforeSerialize()
 		{
 #if UNITY_EDITOR
-			// Dialogue가 AssetDB에 저장된 경우
 			if (AssetDatabase.GetAssetPath(this) != "")
 			{
 				foreach (DialogueNode node in GetAllNodes())

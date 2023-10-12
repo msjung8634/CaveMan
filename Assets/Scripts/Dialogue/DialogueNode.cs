@@ -18,10 +18,14 @@ namespace Dialogue
             }
             set
             {
+#if UNITY_EDITOR
                 // context 저장하면 Undo를 할 수 있도록 함
                 Undo.RecordObject(this, "Change Dialogue Speaker");
+#endif
                 _isPlayerSpeaking = value;
+#if UNITY_EDITOR
                 EditorUtility.SetDirty(this);
+#endif
             }
         }
 		[TextArea(6, 40)]
@@ -37,10 +41,14 @@ namespace Dialogue
             {
 				if (_context != value)
 				{
+#if UNITY_EDITOR
                     // context 저장하면 Undo를 할 수 있도록 함
                     Undo.RecordObject(this, "Update Dialogue Text");
+#endif
                     _context = value;
+#if UNITY_EDITOR
                     EditorUtility.SetDirty(this);
+#endif
                 }
             }
         }
@@ -55,7 +63,9 @@ namespace Dialogue
             private set
             {
                 _children = value;
+#if UNITY_EDITOR
                 EditorUtility.SetDirty(this);
+#endif
             }
         }
         [SerializeField]
@@ -69,7 +79,9 @@ namespace Dialogue
             set
             {
                 _rect = value;
+#if UNITY_EDITOR
                 EditorUtility.SetDirty(this);
+#endif
             }
         }
 
@@ -84,7 +96,9 @@ namespace Dialogue
             set
             {
                 _onEnterAction = value;
+#if UNITY_EDITOR
                 EditorUtility.SetDirty(this);
+#endif
             }
         }
 
@@ -99,30 +113,37 @@ namespace Dialogue
             set
             {
                 _onExitAction = value;
+#if UNITY_EDITOR
                 EditorUtility.SetDirty(this);
+#endif
             }
         }
 
-#if UNITY_EDITOR
+
         public void SetPosition(Vector2 newPosition)
 		{
+#if UNITY_EDITOR
             Undo.RecordObject(this, "Move Dialogue Node");
+#endif
             Rect rect = Rect;
             rect.position = newPosition;
             Rect = rect;
-		}
+        }
 
         public void AddChild(string childID)
 		{
+#if UNITY_EDITOR
             Undo.RecordObject(this, "Add Dialogue Link");
+#endif
             Children.Add(childID);
-		}
+        }
 
         public void RemoveChild(string childID)
         {
+#if UNITY_EDITOR
             Undo.RecordObject(this, "Remove Dialogue Link");
+#endif
             Children.Remove(childID);
         }
-#endif
-	}
+    }
 }
