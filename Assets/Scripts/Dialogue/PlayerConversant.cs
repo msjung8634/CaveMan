@@ -117,6 +117,21 @@ namespace Dialogue
 				return;
 
 			Debug.Log(currentNode.OnExitAction);
+
+			////////////////////////////////////
+			if (currentNode.OnExitAction == "StartQuest")
+			{
+				Quit();
+				QuestUI.SetActive(true);
+			}
+			////////////////////////////////////
+		}
+
+		[SerializeField]
+		private GameObject QuestUI;
+		private void Start()
+		{
+			 QuestUI.SetActive(false);
 		}
 	}
 }

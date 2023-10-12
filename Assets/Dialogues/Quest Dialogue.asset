@@ -227,6 +227,7 @@ MonoBehaviour:
   - {fileID: -181340791627216474}
   - {fileID: 805203688910410380}
   - {fileID: 5487350867301407815}
+  - {fileID: 5820087991742859174}
 --- !u!114 &102116093025432790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340,7 +341,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isPlayerSpeaking: 1
   _context: "\uB2F9\uADFC\uC774\uC96C~"
-  _children: []
+  _children:
+  - 81a49fb3-d2e0-4c2b-a64a-39df871512b9
   _rect:
     serializedVersion: 2
     x: 3223
@@ -348,7 +350,7 @@ MonoBehaviour:
     width: 300
     height: 120
   _onEnterAction: 
-  _onExitAction: StartQuest
+  _onExitAction: 
 --- !u!114 &5522489452463649726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,6 +375,29 @@ MonoBehaviour:
     height: 120
   _onEnterAction: 
   _onExitAction: 
+--- !u!114 &5820087991742859174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62152b55984c0648bf62d1229013914, type: 3}
+  m_Name: 81a49fb3-d2e0-4c2b-a64a-39df871512b9
+  m_EditorClassIdentifier: 
+  _isPlayerSpeaking: 0
+  _context: "\uADF8\uB7FC \uB9BC\uAD00\uC601 \uC790\uB124\uB9CC \uBBFF\uACA0\uB124!"
+  _children: []
+  _rect:
+    serializedVersion: 2
+    x: 3583
+    y: 497
+    width: 300
+    height: 120
+  _onEnterAction: 
+  _onExitAction: StartQuest
 --- !u!114 &6788817989516955441
 MonoBehaviour:
   m_ObjectHideFlags: 0
