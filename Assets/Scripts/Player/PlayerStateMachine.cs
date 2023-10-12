@@ -23,6 +23,9 @@ namespace Player
         [field: SerializeField]
         public HookablePlatform NearestHookablePlatform { get; set; } = null;
 
+        [field: SerializeField]
+        public bool IsTalking { get; set; } = false;
+
         public Vector3 leftRayOffset = new Vector3(-.2f, -.3f, 0);
         public Vector3 rightRayOffset = new Vector3(.2f, -.3f, 0);
         public Vector3 downRayOffset = new Vector3(0, -.3f, 0);
@@ -31,10 +34,15 @@ namespace Player
         public float verticalRayDistance = .6f;
         public float platformCheckRadius = 5f;
 
+        private int EnemyLayer;
+        private int DefaultLayer;
+
         private void Awake()
 		{
 			base.InitializeStateMachine();
-		}
+            EnemyLayer = LayerMask.NameToLayer("Enemy");
+            DefaultLayer = LayerMask.NameToLayer("Default");
+        }
 
 		private void FixedUpdate()
 		{
@@ -42,6 +50,11 @@ namespace Player
             CheckObstacleVertical();
             CheckHookablePlatform();
             LastGroundTime += Time.fixedDeltaTime;
+        }
+
+        private void Update()
+        {
+            gameObject.layer = HitState == HitState.Unhittable ? EnemyLayer : DefaultLayer;
         }
 
         private void LateUpdate()

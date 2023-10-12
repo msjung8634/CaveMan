@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class HookablePlatform : MonoBehaviour, IRaycastable
 {
+    [field:SerializeField]
+    public Vector3 HookPoint { get; set; } = Vector3.zero;
+
     public CursorType GetCursorType()
     {
         return CursorType.Hookable;

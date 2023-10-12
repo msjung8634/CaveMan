@@ -7,6 +7,8 @@ public class DamagePopUp : MonoBehaviour
 {
     [Header("피격 데미지 표시")]
     [SerializeField]
+    private Color color = new Color(255, 0, 0, 255);
+    [SerializeField]
     private GameObject damagePopupPrefab;
     [SerializeField]
     private float offsetX = 0f;
@@ -39,6 +41,7 @@ public class DamagePopUp : MonoBehaviour
         Vector3 pos = Camera.main.WorldToScreenPoint(transform.position + new Vector3(offsetX, offsetY, 0));
         GameObject obj = Instantiate(damagePopupPrefab, pos, Quaternion.Euler(0, 0, angle));
         obj.GetComponent<Text>().text = damage.ToString();
+        obj.GetComponent<Text>().color = color;
         obj.transform.SetParent(canvas.transform);
 
         float elapsedTime = 0f;

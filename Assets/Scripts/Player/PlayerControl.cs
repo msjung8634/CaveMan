@@ -14,6 +14,7 @@ namespace Player
     [RequireComponent(typeof(CapsuleCollider2D))]
     [RequireComponent(typeof(Health))]
     [RequireComponent(typeof(PlayerConversant))]
+    [RequireComponent(typeof(SpriteRenderer))]
     public class PlayerControl : MonoBehaviour
     {
         [Header("Velocity Limit")]
@@ -53,7 +54,7 @@ namespace Player
         private float coyoteTime = .5f;
 		[SerializeField]
 		private float jumpCutMultiplier = .5f;
-		[SerializeField]
+        [SerializeField]
         private bool isWallJump = false;
         
         [Header("Fall")]
@@ -63,6 +64,8 @@ namespace Player
         [SerializeField]
         [Range(1f, 2f)]
         private float fallGravityMultiplier = 1f;
+        [SerializeField]
+        private bool isWallSlide = false;
         [SerializeField]
         [Range(0f, 1f)]
         private float wallSlideGravityScale = 0.3f;
@@ -115,6 +118,8 @@ namespace Player
         private float knockBackForce = 60f;
         [SerializeField]
         private float knockBackDuration = .2f;
+        [SerializeField]
+        private float knockBackInvincibleDuration = 1f;
 
         [System.Serializable]
         struct CursorMapping
@@ -134,6 +139,7 @@ namespace Player
         private CapsuleCollider2D capsuleCollider2D;
         private Health health;
         private PlayerConversant conversant;
+        private SpriteRenderer spriteRenderer;
 
         private void Awake()
         {
@@ -143,6 +149,7 @@ namespace Player
             TryGetComponent(out capsuleCollider2D);
             TryGetComponent(out health);
             TryGetComponent(out conversant);
+            TryGetComponent(out spriteRenderer);
         }
 
         private void FixedUpdate()
@@ -201,7 +208,7 @@ namespace Player
 
             dodgeCoolDown = dodgeDelay;
 
-            ToggleCollider(false);
+            TogglePlayerHitbox(false);
             // 감속계수 제거
             float decceleration = moveDecceleration;
             moveDecceleration = 0;
@@ -219,28 +226,20 @@ namespace Player
 
             // 감속계수 복원
             moveDecceleration = decceleration;
-            ToggleCollider(true);
+            TogglePlayerHitbox(true);
         }
 
-		private void ToggleCollider(bool isCollisionOn)
+		private void TogglePlayerHitbox(bool isHitable)
 		{
-            // Set Constraints
-            RigidbodyConstraints2D constraints = isCollisionOn ? RigidbodyConstraints2D.FreezeRotation : RigidbodyConstraints2D.FreezePositionY;
-            rigidbody2D.constraints = constraints;
-
-            // Toggle collider - Enemy Layer하고만 충돌되지 않도록 수정 필요
-            // 이렇게되면 Obstacle 무시해서 벽 뚫고 나감
-            capsuleCollider2D.enabled = isCollisionOn;
-
             // Toggle hitbox
-            playerHitBox.SetActive(isCollisionOn);
+            playerHitBox.SetActive(isHitable);
 
             // Change HitState
-            HitState hitState = isCollisionOn ? HitState.Hittable : HitState.Unhittable;
+            HitState hitState = isHitable ? HitState.Hittable : HitState.Unhittable;
             stateMachine.SetHitState(hitState);
 
             // Change ControlState
-            ControlState controlState = isCollisionOn ? ControlState.Controllable : ControlState.Uncontrollable;
+            ControlState controlState = isHitable ? ControlState.Controllable : ControlState.Uncontrollable;
             stateMachine.SetControlState(controlState);
 		}
 
@@ -261,7 +260,7 @@ namespace Player
                 rigidbody2D.gravityScale *= gravityScale * fallGravityMultiplier;
 
                 // 벽을 붙잡은 채 추락하는 경우
-                if (CheckWallSliding())
+                if (CheckWallSliding() && isWallSlide)
                 {
                     rigidbody2D.gravityScale = gravityScale * wallSlideGravityScale;
                 }
@@ -308,14 +307,14 @@ namespace Player
         {
             if (animation.LastDirection == Vector2.left)
             {
-                StartCoroutine(ToggleHitBox(leftAttackHitBox, attackDetectionDuration));
+                StartCoroutine(ToggleAttackHitBox(leftAttackHitBox, attackDetectionDuration));
             }
             else if (animation.LastDirection == Vector2.right)
             {
-                StartCoroutine(ToggleHitBox(rightAttackHitBox, attackDetectionDuration));
+                StartCoroutine(ToggleAttackHitBox(rightAttackHitBox, attackDetectionDuration));
             }
         }
-        private IEnumerator ToggleHitBox(GameObject hitBox, float duration)
+        private IEnumerator ToggleAttackHitBox(GameObject hitBox, float duration)
         {
             attackCoolDown = attackDelay;
 
@@ -450,9 +449,9 @@ namespace Player
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
-			// 데미지 계산
-
-			if (collision.gameObject.CompareTag("Enemy"))
+            // 피격불가 상태에서는 KnockBack 하지 않음
+            if (collision.gameObject.CompareTag("Enemy")
+                && stateMachine.HitState == HitState.Hittable)
 			{
                 Vector2 direction;
                 // 적 왼쪽에서 부딪힌 경우
@@ -467,11 +466,11 @@ namespace Player
 
         private IEnumerator KnockBack(Vector2 direction)
         {
-            // 피격불가 상태에서는 KnockBack 하지 않음
-            if (stateMachine.HitState == HitState.Unhittable)
-                yield break;
+            StartCoroutine(TogglePlayerHitBox(knockBackInvincibleDuration));
+            StartCoroutine(Blink(knockBackInvincibleDuration, Color.red));
 
-            ToggleHitBox(false);
+            // 데미지 계산
+            health.GetDamage(10);
 
             // 감속계수 제거
             float decceleration = moveDecceleration;
@@ -480,32 +479,47 @@ namespace Player
             rigidbody2D.velocity = Vector2.zero;
             // 외력 적용
             rigidbody2D.AddForce(knockBackForce * direction, ForceMode2D.Impulse);
-            Debug.Log("KnockBack!!");
-
+            
             float elapsedTime = 0f;
 			while (elapsedTime < knockBackDuration)
 			{
-                elapsedTime += Time.fixedDeltaTime;
-                yield return new WaitForFixedUpdate();
+                elapsedTime += Time.deltaTime;
+                yield return null;
 			}
 
+            // 감속계수 복원
             moveDecceleration = decceleration;
-            ToggleHitBox(true);
         }
 
-        private void ToggleHitBox(bool isCollisionOn)
+        private IEnumerator Blink(float duration, Color color)
         {
-            // Toggle hitbox
-            playerHitBox.SetActive(isCollisionOn);
+            float elapsedTime = 0f;
+            int frameCount = 0;
+            while (elapsedTime < duration)
+            {
+                elapsedTime += Time.deltaTime;
+                spriteRenderer.color = frameCount % 20 < 10 ? color : Color.white;
+                frameCount++;
+                yield return null;
+            }
+            spriteRenderer.color = Color.white;
+        }
 
-            // Change HitState
-            HitState hitState = isCollisionOn ? HitState.Hittable : HitState.Unhittable;
-            stateMachine.SetHitState(hitState);
+        private IEnumerator TogglePlayerHitBox(float duration)
+        {
+            playerHitBox.SetActive(false);
+            stateMachine.SetHitState(HitState.Unhittable);
 
-			// Change ControlState
-			ControlState controlState = isCollisionOn ? ControlState.Controllable : ControlState.Uncontrollable;
-			stateMachine.SetControlState(controlState);
-		}
+            float elapsedTime = 0f;
+            while (elapsedTime < duration)
+            {
+                elapsedTime += Time.deltaTime;
+                yield return null;
+            }
+
+            playerHitBox.SetActive(true);
+            stateMachine.SetHitState(HitState.Hittable);
+        }
 
         private void Update()
         {
@@ -513,21 +527,27 @@ namespace Player
             attackIndicator.fillAmount = (attackDelay - attackCoolDown) / attackDelay;
             dodgeIndicator.fillAmount = (dodgeDelay - dodgeCoolDown) / dodgeDelay;
 
-            if (health.CurrentHealth == 0)
+            if (health.CurrentHealth <= 0)
+            {
                 animation.IsDead = true;
+                rigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;
+                capsuleCollider2D.enabled = false;
+                TogglePlayerHitbox(false);
+            }
 
-            if (InteractWithCursor())
-                return;
+            InteractWithCursor();
+            //if (InteractWithCursor())
+            //    return;
 
             ProcessCombatInput();
             ProcessMoveInput();
             ProcessJumpInput();
             ProcessGrappleInput();
 
-            CheckDodgeWall();
+            CheckDodgeToWall();
         }
 
-        private void CheckDodgeWall()
+        private void CheckDodgeToWall()
 		{
             // 제어불가 상태(Dodge / KnockBack)에서 벽에 닿은 경우 즉시 정지
             if (stateMachine.ControlState == ControlState.Uncontrollable
@@ -633,11 +653,14 @@ namespace Player
                 {
                     target.HandleRaycast(this);
                 }
+                
+                if (target != null)
+                    SetCursor(target.GetCursorType());
 
-                SetCursor(target.GetCursorType());
                 return true;
             }
-            else if (stateMachine.NearestHookablePlatform != null)
+            else if (stateMachine.NearestHookablePlatform != null
+                     && !stateMachine.IsTalking)
             {
                 SetCursor(stateMachine.NearestHookablePlatform.GetCursorType());
                 return false;

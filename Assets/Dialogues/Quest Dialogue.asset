@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c106fe9f9e283474bb6df163fe3a3e91, type: 3}
-  m_Name: Test Dialogue
+  m_Name: Quest Dialogue
   m_EditorClassIdentifier: 
   newNodeOffset: {x: 360, y: 0}
   nodes:

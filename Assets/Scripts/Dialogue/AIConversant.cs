@@ -22,8 +22,12 @@ namespace Dialogue
 
 			if (Input.GetMouseButtonDown(0))
 			{
-				playerControl.TryGetComponent(out PlayerConversant conversant);
-				conversant.StartDialogue(dialogue);
+				if(playerControl.TryGetComponent(out PlayerConversant conversant))
+                {
+					playerControl.TryGetComponent(out PlayerStateMachine playerStateMachine);
+					conversant.StartDialogue(dialogue);
+                }
+
 				return true;
 			}
 

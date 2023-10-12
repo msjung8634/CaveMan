@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Player;
 
 namespace Dialogue
 {
+	[RequireComponent(typeof(PlayerStateMachine))]
 	public class PlayerConversant : MonoBehaviour
 	{
 		[SerializeField]
@@ -20,8 +22,19 @@ namespace Dialogue
 		// 대화가 변경되면 모든 callback 실행
 		public event Action onConversationUpdated;
 
-		public void StartDialogue(Dialogue newDialogue)
+		private PlayerStateMachine playerStateMachine;
+
+        private void Awake()
+        {
+			TryGetComponent(out playerStateMachine);
+        }
+
+        public void StartDialogue(Dialogue newDialogue)
 		{
+			playerStateMachine.IsTalking = true;
+			playerStateMachine.SetControlState(FSM.ControlState.Uncontrollable);
+			playerStateMachine.SetHitState(FSM.HitState.Unhittable);
+
 			currentDialogue = newDialogue;
 			currentNode = currentDialogue.GetRootNode();
 			IsActive = true;
@@ -31,6 +44,10 @@ namespace Dialogue
 
 		public void Quit()
 		{
+			playerStateMachine.IsTalking = false;
+			playerStateMachine.SetControlState(FSM.ControlState.Controllable);
+			playerStateMachine.SetHitState(FSM.HitState.Hittable);
+
 			currentDialogue = null;
 			currentNode = null;
 			IsChoosing = false;

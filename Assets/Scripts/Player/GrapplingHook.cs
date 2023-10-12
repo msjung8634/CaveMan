@@ -30,7 +30,8 @@ public class GrapplingHook : MonoBehaviour
         if (playerControl.LastHookTarget != null)
         {
             Vector3 platformPos = playerControl.LastHookTarget.transform.position;
-            distanceJoint.connectedAnchor = platformPos;
+            Vector3 hookPos = platformPos + playerControl.LastHookTarget.HookPoint;
+            distanceJoint.connectedAnchor = hookPos;
         }
     }
 
@@ -43,7 +44,8 @@ public class GrapplingHook : MonoBehaviour
             lineRenderer.SetPosition(0, playerPos);
             Vector3 platformPos = playerControl.LastHookTarget.transform.position;
             platformPos = new Vector3(platformPos.x, platformPos.y, -1);
-            lineRenderer.SetPosition(1, platformPos);
+            Vector3 hookPos = platformPos + playerControl.LastHookTarget.HookPoint;
+            lineRenderer.SetPosition(1, hookPos);
         }
     }
 
@@ -59,13 +61,14 @@ public class GrapplingHook : MonoBehaviour
         lineRenderer.positionCount = 2;
         Vector3 platformPos = platform.transform.position;
         platformPos = new Vector3(platformPos.x, platformPos.y, -1);
+        Vector3 hookPos = platformPos + platform.HookPoint;
         Vector3 playerPos = transform.position;
         playerPos = new Vector3(playerPos.x, playerPos.y, -1);
         lineRenderer.SetPosition(0, playerPos);
-        lineRenderer.SetPosition(1, platformPos);
+        lineRenderer.SetPosition(1, platformPos + platform.HookPoint);
 
-        distanceJoint.distance = Vector3.Distance(transform.position, platformPos);
-        distanceJoint.connectedAnchor = platformPos;
+        distanceJoint.distance = Vector3.Distance(transform.position, hookPos);
+        distanceJoint.connectedAnchor = hookPos;
         playerControl.LastHookTarget = platform;
 
         distanceJoint.enabled = true;

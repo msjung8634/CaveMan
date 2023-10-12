@@ -169,6 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ControlState>k__BackingField: 0
   <HitState>k__BackingField: 0
+  dieDelay: 0.5
 --- !u!114 &8242741629422135896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,12 +182,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a93ebdc116ae144a948674229cd73cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  accelRate: 1
+  accelRate: 10
   maxVelocity: 1.5
   reverseDelay: 1
   reverseCoolDown: 0
   attackCoolDown: 0
-  attackDelay: 5
+  attackDelay: 3
   dashDistance: 1
   dashMaxVelocity: 20
   dashCastDelay: 0.4
@@ -222,6 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef2063dcd0dd6d84e8507d3df77ccca9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  color: {r: 1, g: 0.9132484, b: 0, a: 1}
   damagePopupPrefab: {fileID: 3204686393915458908, guid: 22673d1cf2c311740af25a503f5a6066, type: 3}
   offsetX: 0
   offsetY: 1.2

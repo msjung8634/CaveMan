@@ -31,7 +31,7 @@ namespace Player
 			TryGetComponent(out animator);
 		}
 
-		void Update()
+        void Update()
         {
 			if (LastDirection == Vector2.left)
 				spriteRenderer.flipX = true;

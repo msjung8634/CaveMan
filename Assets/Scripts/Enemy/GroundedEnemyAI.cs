@@ -93,9 +93,9 @@ namespace Enemy
                 return;
             }
 
-            if (!isAttacking && IsGrounded())
+            if (IsGrounded() && !isAttacking && attackCoolDown <= 0)
             {
-                if(TryDetectPlayer(out float distance))
+                if(TryDetectPlayerHitBox(out float distance))
                 {
                     Attack(distance);
                 }
@@ -104,6 +104,11 @@ namespace Enemy
                     Patrol();
                 }
             }
+        }
+
+        public void Die()
+        {
+            StopAllCoroutines();
         }
 
 		private bool IsGrounded()
@@ -155,7 +160,7 @@ namespace Enemy
             rigidbody2D.velocity = Vector2.zero;
         }
 
-        private bool TryDetectPlayer(out float distance)
+        private bool TryDetectPlayerHitBox(out float distance)
         {
             Vector2 origin = new Vector2(transform.position.x, transform.position.y) + detectRayOffset;
 
@@ -180,13 +185,13 @@ namespace Enemy
 
         private void Attack(float distance)
         {
-            if (isAttacking || attackCoolDown > 0)
+            if (isAttacking || attackCoolDown > 0
+                && stateMachine.ControlState == FSM.ControlState.Uncontrollable)
                 return;
             
             // АјАн
             if (Mathf.Abs(distance) <= dashDistance)
             {
-                Debug.Log($"DashAttack:{distance}");
                 attackCoolDown = attackDelay;
                 StartCoroutine(DashAttack(distance));
             }
@@ -214,24 +219,34 @@ namespace Enemy
 
         private IEnumerator RevertVelocity(Vector2 originVelocity, float delay)
         {
-            float elapsedTime = 0f;
-            while (elapsedTime < delay)
+            while (stateMachine.ControlState != FSM.ControlState.Uncontrollable)
             {
-                elapsedTime += Time.deltaTime;
-                yield return null;
-            }
+                float elapsedTime = 0f;
+                while (elapsedTime < delay)
+                {
+                    elapsedTime += Time.deltaTime;
+                    yield return null;
+                }
 
-            maxVelocity = firstVelocity;
-            rigidbody2D.velocity = originVelocity;
+                maxVelocity = firstVelocity;
+                rigidbody2D.velocity = originVelocity;
+
+                break;
+            }
         }
 
         private IEnumerator Delay(float duration)
         {
-            float elapsedTime = 0f;
-            while (elapsedTime < duration)
+            while (stateMachine.ControlState != FSM.ControlState.Uncontrollable)
             {
-                elapsedTime += Time.deltaTime;
-                yield return null;
+                float elapsedTime = 0f;
+                while (elapsedTime < duration)
+                {
+                    elapsedTime += Time.deltaTime;
+                    yield return null;
+                }
+
+                break;
             }
         }
     }
