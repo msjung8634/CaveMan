@@ -74,6 +74,8 @@ namespace Player
         [SerializeField]
         private Image grappleIndicator;
         [SerializeField]
+        private Image grappleIndicatorBG;
+        [SerializeField]
         [Range(0f, 1f)]
         private float grappleDelay = .1f;
         private float grappleCoolDown = 0f;
@@ -94,6 +96,8 @@ namespace Player
         [SerializeField]
         private Image attackIndicator;
         [SerializeField]
+        private Image attackIndicatorBG;
+        [SerializeField]
         private float attackDelay = .5f;
         private float attackCoolDown = 0f;
         [SerializeField]
@@ -103,6 +107,8 @@ namespace Player
         // Indicator가 Player Control을 갖고있는게 낫지 않을까?
         [SerializeField]
         private Image dodgeIndicator;
+        [SerializeField]
+        private Image dodgeIndicatorBG;
         [SerializeField]
         private float dodgeDelay = 2f;
         private float dodgeCoolDown = 0f;
@@ -132,6 +138,11 @@ namespace Player
         [Header("CursorMapping")]
         [SerializeField]
         CursorMapping[] cursorMappings = null;
+
+        public event Action OnAttack;
+        public event Action OnDodge;
+        public event Action OnGrapple;
+        public event Action OnHit;
 
         private PlayerStateMachine stateMachine;
         private PlayerAnimation animation;
@@ -205,6 +216,8 @@ namespace Player
             // 제어불가 상태에서는 Dodge 불가
             if (stateMachine.ControlState == ControlState.Uncontrollable)
                 yield break;
+
+            OnDodge();
 
             dodgeCoolDown = dodgeDelay;
 
@@ -305,6 +318,8 @@ namespace Player
         #region Animation Event
         private void Attack()
         {
+            OnAttack();
+
             if (animation.LastDirection == Vector2.left)
             {
                 StartCoroutine(ToggleAttackHitBox(leftAttackHitBox, attackDetectionDuration));
@@ -431,6 +446,7 @@ namespace Player
             if (stateMachine.NearestHookablePlatform.TryGetComponent(out HookablePlatform platform)
                 && inputHook > 0 && grappleCoolDown == 0)
             {
+                OnGrapple();
                 platform.Hook(this, platform);
             }
             // Unhook
@@ -472,6 +488,8 @@ namespace Player
         {
             StartCoroutine(TogglePlayerHitBox(knockBackInvincibleDuration));
             StartCoroutine(Blink(knockBackInvincibleDuration, Color.red));
+
+            OnHit();
 
             // 데미지 계산
             health.GetDamage(10);
@@ -528,8 +546,11 @@ namespace Player
         private void Update()
         {
             grappleIndicator.fillAmount = (grappleDelay - grappleCoolDown) / grappleDelay;
+            grappleIndicatorBG.fillAmount = (grappleDelay - grappleCoolDown) / grappleDelay;
             attackIndicator.fillAmount = (attackDelay - attackCoolDown) / attackDelay;
+            attackIndicatorBG.fillAmount = (attackDelay - attackCoolDown) / attackDelay;
             dodgeIndicator.fillAmount = (dodgeDelay - dodgeCoolDown) / dodgeDelay;
+            dodgeIndicatorBG.fillAmount = (dodgeDelay - dodgeCoolDown) / dodgeDelay;
 
             if (health.CurrentHealth <= 0)
             {

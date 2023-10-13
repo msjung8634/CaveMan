@@ -10,7 +10,9 @@ namespace UI
     public class DialogueUI : MonoBehaviour
     {
         private PlayerConversant playerConversant;
-        [SerializeField]
+		[SerializeField]
+		private TextMeshProUGUI speakerNameText;
+		[SerializeField]
         private TextMeshProUGUI aiText;
 		[SerializeField]
 		private Button quitButton;
@@ -42,6 +44,8 @@ namespace UI
 			gameObject.SetActive(playerConversant.IsActive);
 			if (!playerConversant.IsActive)
 				return;
+
+			speakerNameText.text = playerConversant.IsChoosing ? "¸²°ü¿µ" : "NPC";
 
 			aiResponse.SetActive(!playerConversant.IsChoosing);
 			choiceRoot.gameObject.SetActive(playerConversant.IsChoosing);
