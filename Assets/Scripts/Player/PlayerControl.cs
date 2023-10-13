@@ -144,6 +144,11 @@ namespace Player
         public event Action OnGrapple;
         public event Action OnHit;
 
+        public event Action OnAttackFinish;
+        public event Action OnDodgeFinish;
+        public event Action OnGrappleFinish;
+        public event Action OnHitFinish;
+
         private PlayerStateMachine stateMachine;
         private PlayerAnimation animation;
         private Rigidbody2D rigidbody2D;
@@ -170,7 +175,7 @@ namespace Player
             jumpCoolDown = Mathf.Max(0, jumpCoolDown - Time.fixedDeltaTime);
             grappleCoolDown = Mathf.Max(0, grappleCoolDown - Time.fixedDeltaTime);
 
-            if (animation.IsDodge)
+            if (animation.IsDodge && dodgeCoolDown == 0 && stateMachine.ControlState == ControlState.Controllable)
                 StartCoroutine(Dodge(dodgeDuration));
 
             Run();
@@ -213,10 +218,6 @@ namespace Player
 
 		private IEnumerator Dodge(float duration)
         {
-            // 제어불가 상태에서는 Dodge 불가
-            if (stateMachine.ControlState == ControlState.Uncontrollable)
-                yield break;
-
             OnDodge();
 
             dodgeCoolDown = dodgeDelay;
@@ -240,6 +241,8 @@ namespace Player
             // 감속계수 복원
             moveDecceleration = decceleration;
             TogglePlayerHitbox(true);
+
+            OnDodgeFinish();
         }
 
 		private void TogglePlayerHitbox(bool isHitable)
@@ -318,8 +321,6 @@ namespace Player
         #region Animation Event
         private void Attack()
         {
-            OnAttack();
-
             if (animation.LastDirection == Vector2.left)
             {
                 StartCoroutine(ToggleAttackHitBox(leftAttackHitBox, attackDetectionDuration));
@@ -331,6 +332,8 @@ namespace Player
         }
         private IEnumerator ToggleAttackHitBox(GameObject hitBox, float duration)
         {
+            OnAttack();
+
             attackCoolDown = attackDelay;
 
             stateMachine.SetControlState(ControlState.Uncontrollable);
@@ -345,6 +348,8 @@ namespace Player
 
             hitBox.SetActive(false);
             stateMachine.SetControlState(ControlState.Controllable);
+
+            OnAttackFinish();
         }
         #endregion
 
@@ -453,6 +458,7 @@ namespace Player
             else
             {
                 platform.Unhook(this);
+                OnGrappleFinish();
             }
 
             // Reel Rope
@@ -511,6 +517,8 @@ namespace Player
 
             // 감속계수 복원
             moveDecceleration = decceleration;
+
+            OnHitFinish();
         }
 
         private IEnumerator Blink(float duration, Color color)
