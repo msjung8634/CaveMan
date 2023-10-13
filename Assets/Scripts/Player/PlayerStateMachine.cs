@@ -189,15 +189,23 @@ namespace Player
             NearestHookablePlatform = null;
 
             float minDistance = float.MaxValue;
-            Collider[] colliders = Physics.OverlapSphere(transform.position, platformCheckRadius, LayerMask.GetMask("Hookable"));
+            //Collider[] colliders = Physics.OverlapSphere(transform.position, platformCheckRadius, LayerMask.GetMask("Hookable"));
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mousePos = new Vector3(mousePos.x, mousePos.y, 0);
+            Collider[] colliders = Physics.OverlapSphere(mousePos, platformCheckRadius, LayerMask.GetMask("Hookable"));
             foreach (Collider collider in colliders)
             {
                 // 플레이어보다 위에 있는 Platform만 검사
                 if (collider.transform.position.y <= transform.position.y)
                     continue;
 
+                mousePos = new Vector3(mousePos.x, mousePos.y, 0);
+                Vector3 playerToPlatform = collider.transform.position - transform.position;
+                Vector3 mouseToPlatform = collider.transform.position - mousePos;
+
                 collider.gameObject.TryGetComponent(out HookablePlatform platform);
-                float distance = Vector3.Distance(transform.position, collider.transform.position);
+                //float distance = Vector3.Distance(transform.position, collider.transform.position);
+                float distance = playerToPlatform.sqrMagnitude * mouseToPlatform.sqrMagnitude;
                 if (platform != null && distance < minDistance)
                 {
                     NearestHookablePlatform = platform;
@@ -208,8 +216,10 @@ namespace Player
 
         private void OnDrawGizmos()
         {
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mousePos = new Vector3(mousePos.x, mousePos.y, 0);
             Gizmos.color = debugColor;
-            Gizmos.DrawSphere(transform.position, platformCheckRadius);
+            Gizmos.DrawSphere(mousePos, platformCheckRadius);
         }
     }
 }
